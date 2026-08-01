@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Resource Utilization & Readmission Risk AI</title>
+    <!-- Inter Font & Lucide Icons & Chart.js -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <nav class="navbar">
+        <div class="brand">
+            <div class="brand-icon">
+                <i data-lucide="activity"></i>
+            </div>
+            <span>CarePulse Analytics</span>
+        </div>
+
+        <div class="nav-tabs">
+            <button class="nav-tab active" data-tab="tab-overview">
+                <i data-lucide="layout-dashboard"></i> Overview
+            </button>
+            <button class="nav-tab" data-tab="tab-resources">
+                <i data-lucide="bed"></i> Resource Capacity
+            </button>
+            <button class="nav-tab" data-tab="tab-patients">
+                <i data-lucide="users"></i> Patient Risk Register
+            </button>
+            <button class="nav-tab" data-tab="tab-model">
+                <i data-lucide="cpu"></i> ML Model & ROC
+            </button>
+        </div>
+
+        <div style="display: flex; gap: 0.75rem;">
+            <button class="btn-secondary" id="btn-regenerate" title="Regenerate synthetic patient dataset">
+                <i data-lucide="refresh-cw"></i> Reset Data
+            </button>
+            <button class="btn-primary" id="btn-open-modal">
+                <i data-lucide="plus-circle"></i> Predict Readmission
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="container">
+
+        <!-- TAB 1: EXECUTIVE OVERVIEW -->
+        <section id="tab-overview" class="tab-content active">
+            <!-- KPI Grid -->
+            <div class="kpi-grid">
+                <div class="kpi-card danger">
+                    <div class="kpi-header">
+                        <span class="kpi-title">30-Day Readmission Rate</span>
+                        <div class="kpi-icon"><i data-lucide="alert-triangle"></i></div>
+                    </div>
+                    <div class="kpi-value" id="kpi-readmission-rate">--%</div>
+                    <div class="kpi-subtext" id="kpi-readmission-sub">Calculating metrics...</div>
+                </div>
+
+                <div class="kpi-card warning">
+                    <div class="kpi-header">
+                        <span class="kpi-title">Hospital Bed Occupancy</span>
+                        <div class="kpi-icon"><i data-lucide="bed"></i></div>
+                    </div>
+                    <div class="kpi-value" id="kpi-occupancy">--%</div>
+                    <div class="kpi-subtext" id="kpi-occupancy-sub">Total Capacity: 600 Beds</div>
+                </div>
+
+                <div class="kpi-card success">
+                    <div class="kpi-header">
+                        <span class="kpi-title">Avg Length of Stay (ALOS)</span>
+                        <div class="kpi-icon"><i data-lucide="clock"></i></div>
+                    </div>
+                    <div class="kpi-value" id="kpi-alos">-- Days</div>
+                    <div class="kpi-subtext">Optimal Benchmark: 4.5 Days</div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-title">High Risk Patients Flagged</span>
+                        <div class="kpi-icon"><i data-lucide="shield-alert"></i></div>
+                    </div>
+                    <div class="kpi-value" id="kpi-high-risk">--</div>
+                    <div class="kpi-subtext">Requires Care Plan Intervention</div>
+                </div>
+            </div>
+
+            <!-- Overview Charts Grid -->
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <span class="chart-title">Department Occupancy Trends (30 Days)</span>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="chart-occupancy-trend"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <span class="chart-title">Readmission Risk Breakdown by Department</span>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="chart-dept-risk"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 2: RESOURCE CAPACITY & UTILIZATION -->
+        <section id="tab-resources" class="tab-content">
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <span class="chart-title">Department Capacity vs Occupied Beds</span>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="chart-capacity-bar"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <span class="chart-title">Average Length of Stay (ALOS) by Department</span>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="chart-dept-alos"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 3: PATIENT RISK REGISTER -->
+        <section id="tab-patients" class="tab-content">
+            <div class="table-card">
+                <div class="table-toolbar">
+                    <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center;">
+                        <input type="text" id="patient-search" class="search-input" placeholder="Search Patient ID or Dept...">
+                        
+                        <select id="filter-dept" class="select-filter">
+                            <option value="All">All Departments</option>
+                            <option value="General Ward">General Ward</option>
+                            <option value="ICU">ICU</option>
+                            <option value="Emergency">Emergency</option>
+                            <option value="Surgery">Surgery</option>
+                            <option value="Cardiology">Cardiology</option>
+                        </select>
+
+                        <select id="filter-risk" class="select-filter">
+                            <option value="All">All Risk Levels</option>
+                            <option value="High">High Risk (>=60%)</option>
+                            <option value="Moderate">Moderate Risk (35-59%)</option>
+                            <option value="Low">Low Risk (<35%)</option>
+                        </select>
+                    </div>
+
+                    <div style="color: var(--text-secondary); font-size: 0.9rem;">
+                        Showing <strong id="patient-count">0</strong> patient records
+                    </div>
+                </div>
+
+                <div style="overflow-x: auto;">
+                    <table class="custom-table">
+                        <thead>
+                            <tr>
+                                <th>Patient ID</th>
+                                <th>Age / Gender</th>
+                                <th>Department</th>
+                                <th>Length of Stay</th>
+                                <th>Prior Admissions</th>
+                                <th>ER Visits (6m)</th>
+                                <th>Risk Probability</th>
+                                <th>Risk Category</th>
+                                <th>Discharge Dest.</th>
+                            </tr>
+                        </thead>
+                        <tbody id="patient-table-body">
+                            <!-- Populated via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 4: ML MODEL & ROC EVALUATION -->
+        <section id="tab-model" class="tab-content">
+            <div class="kpi-grid">
+                <div class="kpi-card success">
+                    <div class="kpi-header"><span class="kpi-title">Model Accuracy</span></div>
+                    <div class="kpi-value" id="metric-accuracy">--%</div>
+                    <div class="kpi-subtext">Holdout Test Set</div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-header"><span class="kpi-title">ROC-AUC Score</span></div>
+                    <div class="kpi-value" id="metric-roc">--</div>
+                    <div class="kpi-subtext">Discriminative Power</div>
+                </div>
+
+                <div class="kpi-card warning">
+                    <div class="kpi-header"><span class="kpi-title">Precision Rate</span></div>
+                    <div class="kpi-value" id="metric-precision">--%</div>
+                    <div class="kpi-subtext">True Positive Accuracy</div>
+                </div>
+
+                <div class="kpi-card danger">
+                    <div class="kpi-header"><span class="kpi-title">Sensitivity (Recall)</span></div>
+                    <div class="kpi-value" id="metric-recall">--%</div>
+                    <div class="kpi-subtext">High Risk Capture Rate</div>
+                </div>
+            </div>
+
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <span class="chart-title">Feature Importance (Top Clinical Risk Drivers)</span>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="chart-feature-importance"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <span class="chart-title">Receiver Operating Characteristic (ROC Curve)</span>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="chart-roc-curve"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PREDICTION CALCULATOR MODAL -->
+    <div class="modal" id="prediction-modal">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h2 style="font-size: 1.25rem; font-weight: 700; color: var(--text-primary); display: flex; align-items: center; gap: 0.5rem;">
+                    <i data-lucide="calculator" style="color: var(--accent-cyan);"></i> Patient Readmission Risk Calculator
+                </h2>
+                <button class="close-btn" id="btn-close-modal">&times;</button>
+            </div>
+
+            <form id="predict-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Age</label>
+                        <input type="number" id="input-age" class="form-control" value="68" min="18" max="100" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <select id="input-gender" class="form-control">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Department</label>
+                        <select id="input-dept" class="form-control">
+                            <option value="General Ward">General Ward</option>
+                            <option value="ICU">ICU</option>
+                            <option value="Emergency">Emergency</option>
+                            <option value="Surgery">Surgery</option>
+                            <option value="Cardiology">Cardiology</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Length of Stay (Days)</label>
+                        <input type="number" id="input-los" class="form-control" value="7" min="1" max="60" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Prior Admissions (Past 12 Months)</label>
+                        <input type="number" id="input-prior-adm" class="form-control" value="2" min="0" max="10" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Emergency Visits (Past 6 Months)</label>
+                        <input type="number" id="input-er-visits" class="form-control" value="1" min="0" max="10" required>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 1.25rem;">
+                    <label style="font-size: 0.85rem; color: var(--text-secondary); font-weight: 600; display: block; margin-bottom: 0.5rem;">Clinical Comorbidities & Risk Flags</label>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.75rem;">
+                        <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.4rem; cursor: pointer;">
+                            <input type="checkbox" id="input-diabetes" checked> Diabetes
+                        </label>
+                        <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.4rem; cursor: pointer;">
+                            <input type="checkbox" id="input-hypertension" checked> Hypertension
+                        </label>
+                        <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.4rem; cursor: pointer;">
+                            <input type="checkbox" id="input-heart-disease"> Heart Disease
+                        </label>
+                        <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.4rem; cursor: pointer;">
+                            <input type="checkbox" id="input-ckd"> Kidney Disease (CKD)
+                        </label>
+                        <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.4rem; cursor: pointer;">
+                            <input type="checkbox" id="input-abnormal-labs" checked> Abnormal Lab Flags
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-primary" style="width: 100%; justify-center: center;">
+                    <i data-lucide="activity"></i> Run Prediction Model
+                </button>
+            </form>
+
+            <div class="prediction-result" id="prediction-output">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                    <div>
+                        <div style="font-size: 0.8rem; color: var(--text-secondary);">Calculated Readmission Risk</div>
+                        <div style="font-size: 1.6rem; font-weight: 800;" id="result-probability">--%</div>
+                    </div>
+                    <div id="result-badge" class="badge">--</div>
+                </div>
+
+                <div style="margin-bottom: 0.75rem;">
+                    <div style="font-size: 0.82rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.25rem;">Key Contributing Risk Factors:</div>
+                    <ul id="result-factors" style="font-size: 0.85rem; padding-left: 1.2rem; color: var(--text-primary);"></ul>
+                </div>
+
+                <div>
+                    <div style="font-size: 0.82rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.25rem;">Clinical Discharge Recommendations:</div>
+                    <ul id="result-recommendations" style="font-size: 0.85rem; padding-left: 1.2rem; color: #60a5fa;"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Hospital Resource Utilization & Readmission Risk AI &bull; Built with Python, Scikit-Learn, Flask & Chart.js
+    </footer>
+
+    <script src="/static/js/dashboard.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>

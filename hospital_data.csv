@@ -1,0 +1,1201 @@
+patient_id,age,gender,department,length_of_stay,prior_admissions_12m,emergency_visits_6m,num_medications,has_diabetes,has_hypertension,has_heart_disease,has_ckd,abnormal_labs,discharge_destination,readmission_prob_true,readmitted_30d
+PAT-1000,69,Male,General Ward,6,1,1,9,0,1,0,0,1,Skilled Nursing Facility,0.259,0
+PAT-1001,32,Male,General Ward,3,1,3,20,0,0,1,0,0,Skilled Nursing Facility,0.145,0
+PAT-1002,89,Male,General Ward,2,0,0,13,0,0,1,0,0,Home Health Care,0.122,0
+PAT-1003,78,Male,General Ward,5,3,1,2,0,0,0,0,0,Home,0.539,1
+PAT-1004,38,Female,Cardiology,2,0,2,13,0,1,0,0,0,Home Health Care,0.118,0
+PAT-1005,41,Female,ICU,16,0,1,9,0,1,0,0,1,Home,0.241,0
+PAT-1006,20,Male,Surgery,4,3,0,20,1,0,0,0,1,Home,0.139,0
+PAT-1007,39,Male,Emergency,1,2,4,6,1,1,0,0,1,Skilled Nursing Facility,0.593,1
+PAT-1008,70,Male,Emergency,2,0,0,1,1,1,0,0,0,Skilled Nursing Facility,0.262,0
+PAT-1009,19,Female,General Ward,2,1,0,5,0,1,0,0,0,Skilled Nursing Facility,0.044,0
+PAT-1010,47,Female,General Ward,3,0,1,3,0,1,0,0,0,Home,0.1,0
+PAT-1011,55,Female,Surgery,7,2,1,4,0,1,0,0,0,Home,0.188,0
+PAT-1012,19,Male,Cardiology,9,3,1,1,0,0,1,1,0,Home,0.5,1
+PAT-1013,81,Female,General Ward,3,0,0,14,0,1,0,0,0,Home,0.157,0
+PAT-1014,77,Male,General Ward,1,3,0,9,0,1,0,0,0,Home,0.348,0
+PAT-1015,38,Male,ICU,8,0,1,4,0,0,0,0,1,Home,0.097,0
+PAT-1016,50,Male,Cardiology,4,0,1,18,0,0,0,0,0,Home Health Care,0.102,0
+PAT-1017,75,Male,General Ward,3,1,0,14,1,1,0,0,1,Home Health Care,0.279,0
+PAT-1018,39,Female,ICU,14,1,2,4,0,0,0,1,0,Home Health Care,0.336,0
+PAT-1019,66,Female,Surgery,7,0,1,10,0,1,0,1,0,Home Health Care,0.402,0
+PAT-1020,76,Male,General Ward,3,0,1,3,0,0,0,0,1,Home,0.128,0
+PAT-1021,59,Female,General Ward,4,1,1,7,0,0,0,0,1,Home,0.191,0
+PAT-1022,77,Female,Emergency,1,0,0,10,0,0,0,0,0,Home Health Care,0.091,0
+PAT-1023,32,Female,Cardiology,2,2,1,13,0,0,0,0,0,Home,0.096,0
+PAT-1024,79,Female,General Ward,3,1,1,4,0,1,0,0,0,Home,0.189,0
+PAT-1025,79,Female,ICU,18,3,0,18,1,1,0,0,0,Home,0.779,1
+PAT-1026,64,Female,ICU,12,0,1,11,1,0,0,0,1,Home,0.228,0
+PAT-1027,79,Female,ICU,5,0,0,4,0,0,0,0,0,Home Health Care,0.191,0
+PAT-1028,68,Male,Emergency,1,2,0,14,0,0,0,0,0,Skilled Nursing Facility,0.238,0
+PAT-1029,72,Male,ICU,5,3,0,18,0,0,1,1,1,Skilled Nursing Facility,0.853,1
+PAT-1030,81,Female,ICU,11,1,0,8,1,1,1,0,0,Home,0.352,0
+PAT-1031,20,Male,ICU,14,0,1,10,0,0,0,1,0,Home,0.091,0
+PAT-1032,68,Female,Emergency,1,1,0,5,0,0,1,0,0,Home Health Care,0.24,0
+PAT-1033,24,Male,Emergency,1,1,1,7,0,0,0,0,0,Home,0.022,0
+PAT-1034,38,Male,Surgery,3,1,1,12,0,0,1,0,0,Home,0.066,0
+PAT-1035,56,Male,General Ward,3,0,0,3,1,0,0,0,0,Skilled Nursing Facility,0.092,0
+PAT-1036,35,Male,Surgery,2,1,0,4,0,0,0,0,0,Home Health Care,0.045,0
+PAT-1037,21,Female,Surgery,1,2,0,10,0,1,0,1,1,Skilled Nursing Facility,0.334,0
+PAT-1038,77,Female,General Ward,6,1,2,4,0,1,0,1,1,Home,0.587,1
+PAT-1039,31,Female,ICU,3,0,0,15,0,1,0,0,0,Home,0.037,0
+PAT-1040,26,Female,ICU,6,3,1,10,1,0,1,0,0,Home Health Care,0.337,0
+PAT-1041,70,Male,General Ward,4,2,1,21,1,0,0,0,0,Home,0.318,0
+PAT-1042,19,Female,ICU,13,1,1,16,0,0,0,0,0,Home Health Care,0.1,0
+PAT-1043,77,Female,General Ward,3,2,0,15,0,1,0,0,1,Home,0.28,0
+PAT-1044,88,Female,General Ward,1,0,2,19,0,1,0,0,0,Home Health Care,0.132,0
+PAT-1045,61,Male,Surgery,4,1,1,20,0,0,0,0,0,Home Health Care,0.088,0
+PAT-1046,25,Female,General Ward,1,1,0,19,0,0,0,0,0,Home,0.054,0
+PAT-1047,64,Female,Surgery,4,1,1,18,0,1,0,0,0,Home,0.179,0
+PAT-1048,52,Female,Emergency,2,2,2,12,0,1,0,0,0,Home Health Care,0.201,0
+PAT-1049,53,Female,Surgery,1,3,0,16,0,1,0,0,1,Home Health Care,0.315,0
+PAT-1050,67,Male,Emergency,1,1,0,1,0,1,0,1,1,Home,0.21,0
+PAT-1051,21,Female,General Ward,2,2,0,16,1,1,0,0,1,Skilled Nursing Facility,0.166,0
+PAT-1052,19,Female,Emergency,1,0,1,2,0,0,1,1,1,Home,0.158,0
+PAT-1053,23,Male,General Ward,4,0,0,15,0,1,0,0,1,Home,0.045,0
+PAT-1054,71,Female,ICU,2,0,2,7,0,1,0,1,0,Home,0.369,0
+PAT-1055,21,Female,Cardiology,2,0,1,1,0,1,0,0,0,Skilled Nursing Facility,0.055,0
+PAT-1056,71,Male,General Ward,4,0,2,5,0,0,0,0,1,Home,0.15,0
+PAT-1057,80,Male,ICU,14,1,0,10,0,0,0,1,0,Home,0.395,0
+PAT-1058,35,Male,Emergency,1,0,0,21,1,0,0,0,0,Home Health Care,0.026,0
+PAT-1059,61,Male,Surgery,1,1,4,4,0,0,0,0,0,Home,0.298,0
+PAT-1060,51,Male,Emergency,1,0,2,14,0,1,0,1,0,Home,0.315,0
+PAT-1061,79,Female,General Ward,5,1,0,13,0,0,0,0,0,Home,0.121,0
+PAT-1062,31,Male,Emergency,1,1,1,1,0,0,0,1,0,Home Health Care,0.066,0
+PAT-1063,65,Male,General Ward,2,3,0,16,0,1,0,0,0,Home,0.194,0
+PAT-1064,32,Female,Emergency,1,2,1,9,0,0,0,1,1,Skilled Nursing Facility,0.217,0
+PAT-1065,89,Female,Cardiology,5,2,2,16,0,0,0,0,0,Skilled Nursing Facility,0.528,1
+PAT-1066,79,Male,Emergency,2,0,0,19,0,0,0,0,1,Home Health Care,0.126,0
+PAT-1067,57,Male,Surgery,2,2,2,15,0,1,1,0,0,Home Health Care,0.54,1
+PAT-1068,70,Male,General Ward,1,1,1,14,0,0,0,1,0,Home,0.324,0
+PAT-1069,41,Female,Emergency,1,1,0,20,0,1,0,0,0,Home,0.058,0
+PAT-1070,43,Male,Surgery,3,1,0,10,0,0,0,0,0,Home Health Care,0.07,0
+PAT-1071,77,Female,General Ward,1,2,1,21,1,1,0,0,0,Skilled Nursing Facility,0.394,0
+PAT-1072,58,Female,Surgery,5,0,1,12,1,0,0,0,1,Home,0.2,0
+PAT-1073,46,Male,General Ward,3,1,0,1,0,0,0,0,1,Home,0.08,0
+PAT-1074,32,Female,Emergency,1,1,3,21,1,0,0,1,1,Home,0.477,1
+PAT-1075,62,Female,Surgery,6,3,0,17,0,0,0,0,0,Home,0.274,0
+PAT-1076,82,Male,Emergency,2,0,2,9,1,0,0,0,0,Home,0.325,0
+PAT-1077,88,Female,General Ward,3,2,0,19,0,0,0,0,0,Home,0.263,0
+PAT-1078,26,Female,Emergency,1,3,1,18,1,0,0,0,0,Home,0.185,0
+PAT-1079,18,Female,Emergency,2,1,1,7,0,1,1,0,0,Home,0.116,0
+PAT-1080,25,Female,Cardiology,8,0,0,9,0,0,0,0,0,Home,0.02,0
+PAT-1081,80,Female,ICU,15,1,1,21,0,0,1,0,0,Home Health Care,0.63,1
+PAT-1082,28,Female,General Ward,5,0,1,12,0,1,1,0,0,Skilled Nursing Facility,0.244,0
+PAT-1083,25,Female,Emergency,2,1,0,7,0,1,1,0,0,Skilled Nursing Facility,0.098,0
+PAT-1084,52,Female,ICU,8,2,0,14,1,0,1,0,0,Home,0.279,0
+PAT-1085,52,Female,Emergency,1,1,1,15,0,0,0,0,0,Home,0.109,0
+PAT-1086,50,Female,Emergency,1,1,1,15,1,1,0,0,1,Skilled Nursing Facility,0.359,0
+PAT-1087,22,Male,Surgery,2,1,1,6,0,0,0,0,0,Home Health Care,0.042,0
+PAT-1088,58,Male,Emergency,1,1,1,21,0,1,0,0,0,Home,0.083,0
+PAT-1089,45,Male,Emergency,1,0,2,14,0,0,1,0,0,Home,0.148,0
+PAT-1090,24,Male,General Ward,3,3,1,2,0,1,1,1,0,Home,0.394,0
+PAT-1091,89,Male,General Ward,5,0,2,8,0,0,0,0,1,Home,0.405,0
+PAT-1092,29,Female,General Ward,3,1,0,13,1,1,0,0,1,Home,0.138,0
+PAT-1093,51,Male,General Ward,6,0,0,6,0,0,0,0,0,Skilled Nursing Facility,0.067,0
+PAT-1094,50,Female,Emergency,1,0,0,5,0,1,0,0,0,Home,0.079,0
+PAT-1095,65,Male,Emergency,2,2,0,5,1,0,0,0,1,Home Health Care,0.259,0
+PAT-1096,40,Female,Emergency,1,1,1,1,0,0,0,0,0,Home Health Care,0.055,0
+PAT-1097,79,Female,Surgery,7,0,1,9,1,1,1,0,1,Home Health Care,0.513,1
+PAT-1098,54,Male,Cardiology,6,3,0,6,1,0,0,0,0,Skilled Nursing Facility,0.161,0
+PAT-1099,61,Female,Surgery,4,2,2,20,0,1,1,0,0,Skilled Nursing Facility,0.488,1
+PAT-1100,52,Male,Emergency,1,1,0,7,0,0,0,0,1,Home,0.122,0
+PAT-1101,82,Female,Emergency,1,0,0,9,0,1,1,0,1,Skilled Nursing Facility,0.386,0
+PAT-1102,64,Male,ICU,8,0,1,5,1,0,0,0,1,Home Health Care,0.428,1
+PAT-1103,20,Female,General Ward,4,0,2,14,0,1,1,0,0,Home,0.104,0
+PAT-1104,18,Male,ICU,14,1,1,5,0,1,0,0,0,Home Health Care,0.135,0
+PAT-1105,22,Female,Cardiology,12,0,1,8,1,0,0,0,1,Home Health Care,0.163,0
+PAT-1106,31,Female,Surgery,8,1,1,7,0,1,0,0,0,Skilled Nursing Facility,0.281,0
+PAT-1107,44,Male,General Ward,1,0,1,13,1,1,1,0,0,Home,0.184,0
+PAT-1108,26,Male,ICU,6,4,0,13,0,0,0,0,1,Home,0.14,0
+PAT-1109,32,Male,Surgery,7,1,1,8,0,1,0,0,0,Home,0.129,0
+PAT-1110,59,Male,General Ward,4,0,2,11,1,0,0,0,0,Home,0.315,0
+PAT-1111,68,Female,ICU,14,0,0,18,0,1,0,0,1,Home,0.235,0
+PAT-1112,80,Male,Surgery,12,1,0,19,0,0,1,1,1,Home,0.654,1
+PAT-1113,69,Male,ICU,17,1,1,6,0,0,0,0,0,Home Health Care,0.393,0
+PAT-1114,21,Male,General Ward,5,3,0,2,0,0,0,1,0,Home,0.18,0
+PAT-1115,40,Female,Emergency,1,2,0,13,0,1,1,0,1,Home,0.223,0
+PAT-1116,32,Male,Surgery,9,1,0,11,1,1,1,0,1,Home,0.218,0
+PAT-1117,60,Male,Emergency,2,2,1,1,0,1,1,0,1,Home,0.406,0
+PAT-1118,46,Male,General Ward,2,0,2,2,0,0,0,0,0,Home,0.098,0
+PAT-1119,53,Male,ICU,5,2,0,17,0,0,0,0,0,Home,0.166,0
+PAT-1120,30,Female,ICU,4,3,2,8,0,1,0,0,0,Home,0.266,0
+PAT-1121,49,Male,Emergency,1,0,0,2,1,1,0,0,1,Home,0.111,0
+PAT-1122,88,Male,Surgery,1,2,0,6,1,0,0,0,1,Home,0.419,0
+PAT-1123,76,Female,General Ward,3,0,0,5,0,0,0,0,0,Home,0.113,0
+PAT-1124,45,Female,Surgery,2,0,0,16,0,0,0,1,0,Home,0.085,0
+PAT-1125,83,Male,General Ward,1,1,1,8,0,0,0,1,0,Home,0.23,0
+PAT-1126,59,Female,ICU,10,1,1,19,0,1,1,0,1,Home,0.451,1
+PAT-1127,62,Female,General Ward,3,3,1,16,0,0,0,1,0,Home Health Care,0.445,1
+PAT-1128,79,Male,ICU,9,3,0,13,0,1,0,1,0,Home Health Care,0.419,0
+PAT-1129,74,Female,Emergency,2,0,2,20,1,0,1,0,0,Home,0.184,0
+PAT-1130,23,Female,Emergency,1,0,1,7,0,0,0,0,0,Home,0.056,0
+PAT-1131,45,Male,General Ward,6,2,0,16,1,1,0,0,0,Home Health Care,0.203,0
+PAT-1132,45,Male,Emergency,1,1,1,16,0,1,1,0,1,Home,0.293,0
+PAT-1133,61,Male,General Ward,6,0,2,12,0,0,1,0,1,Skilled Nursing Facility,0.309,0
+PAT-1134,47,Female,Surgery,6,1,0,14,1,1,0,0,0,Skilled Nursing Facility,0.226,0
+PAT-1135,79,Female,Cardiology,6,1,0,18,0,0,0,0,0,Skilled Nursing Facility,0.203,0
+PAT-1136,79,Female,General Ward,5,1,0,18,1,1,0,0,1,Home Health Care,0.221,0
+PAT-1137,18,Male,Emergency,1,3,2,16,0,0,0,0,0,Home Health Care,0.178,0
+PAT-1138,44,Female,ICU,16,0,0,20,0,1,0,0,0,Home Health Care,0.121,0
+PAT-1139,79,Female,General Ward,2,0,0,16,1,0,0,0,1,Home Health Care,0.17,0
+PAT-1140,20,Male,ICU,3,0,0,13,0,0,0,1,1,Home Health Care,0.072,0
+PAT-1141,87,Male,Surgery,6,2,1,9,1,1,0,0,1,Home Health Care,0.394,0
+PAT-1142,89,Female,Emergency,1,0,2,9,1,1,0,0,0,Home,0.404,0
+PAT-1143,44,Male,General Ward,7,1,0,13,0,0,0,1,0,Home,0.136,0
+PAT-1144,26,Female,Surgery,3,2,1,4,0,0,0,1,0,Skilled Nursing Facility,0.171,0
+PAT-1145,79,Male,Emergency,1,1,1,9,0,0,0,0,0,Home,0.238,0
+PAT-1146,54,Male,Surgery,1,3,1,15,0,1,0,0,1,Home Health Care,0.205,0
+PAT-1147,68,Male,Emergency,1,1,0,14,1,1,0,1,0,Skilled Nursing Facility,0.312,0
+PAT-1148,61,Male,Emergency,1,1,0,19,0,1,0,0,1,Home Health Care,0.113,0
+PAT-1149,41,Female,General Ward,4,2,1,12,0,0,0,0,0,Skilled Nursing Facility,0.132,0
+PAT-1150,76,Male,General Ward,2,1,0,21,0,1,0,0,0,Home Health Care,0.145,0
+PAT-1151,49,Female,Cardiology,1,4,0,6,0,0,0,0,1,Home,0.249,0
+PAT-1152,69,Female,General Ward,3,1,1,3,1,0,0,0,0,Home Health Care,0.18,0
+PAT-1153,79,Female,Cardiology,6,1,1,20,0,1,0,0,0,Home,0.186,0
+PAT-1154,75,Male,Emergency,1,0,0,16,1,1,0,1,0,Home,0.401,0
+PAT-1155,69,Female,General Ward,6,0,1,20,0,1,0,0,0,Home,0.319,0
+PAT-1156,29,Female,General Ward,6,0,1,17,0,1,0,0,0,Home,0.065,0
+PAT-1157,56,Male,General Ward,4,2,0,16,0,1,0,0,0,Home,0.104,0
+PAT-1158,19,Male,Cardiology,6,1,0,6,0,1,0,1,1,Home,0.225,0
+PAT-1159,20,Female,ICU,2,1,0,8,1,0,1,0,1,Home Health Care,0.089,0
+PAT-1160,73,Female,ICU,8,3,2,19,0,0,0,0,0,Home Health Care,0.423,1
+PAT-1161,76,Male,General Ward,3,3,1,2,1,1,0,1,0,Home,0.555,1
+PAT-1162,19,Female,General Ward,2,2,0,14,0,1,1,0,0,Home,0.061,0
+PAT-1163,19,Female,ICU,10,0,0,12,0,0,1,0,0,Home Health Care,0.058,0
+PAT-1164,71,Female,General Ward,5,2,5,17,0,0,0,1,0,Home Health Care,0.652,1
+PAT-1165,18,Female,Surgery,2,1,0,15,0,0,0,1,1,Skilled Nursing Facility,0.12,0
+PAT-1166,36,Female,ICU,4,0,0,18,0,0,0,0,0,Home,0.042,0
+PAT-1167,19,Male,ICU,7,0,3,16,0,1,0,1,1,Skilled Nursing Facility,0.349,0
+PAT-1168,70,Male,ICU,5,0,2,13,1,0,0,0,1,Home,0.343,0
+PAT-1169,61,Male,ICU,1,1,1,21,0,1,0,0,1,Home Health Care,0.228,0
+PAT-1170,49,Female,Cardiology,3,0,0,17,0,0,0,1,0,Home,0.114,0
+PAT-1171,87,Female,Emergency,1,0,2,8,0,0,0,1,0,Home,0.313,0
+PAT-1172,49,Male,General Ward,5,0,0,1,0,0,0,0,1,Home,0.105,0
+PAT-1173,85,Female,Emergency,2,0,1,3,1,1,1,0,0,Home,0.44,1
+PAT-1174,72,Female,General Ward,1,1,1,16,0,1,0,0,1,Home,0.305,0
+PAT-1175,73,Female,General Ward,4,2,0,2,0,1,0,0,0,Home Health Care,0.295,0
+PAT-1176,34,Male,Cardiology,8,1,0,15,0,0,0,0,0,Home Health Care,0.036,0
+PAT-1177,55,Female,Surgery,1,0,0,1,0,0,0,0,1,Home,0.062,0
+PAT-1178,41,Male,Cardiology,6,0,0,9,0,0,0,0,1,Home,0.128,0
+PAT-1179,86,Male,ICU,18,1,1,16,0,0,1,0,1,Home,0.633,1
+PAT-1180,87,Male,Emergency,1,1,0,4,0,1,1,0,1,Skilled Nursing Facility,0.223,0
+PAT-1181,28,Male,General Ward,2,1,0,12,0,1,0,0,0,Home,0.044,0
+PAT-1182,33,Male,General Ward,1,1,0,1,1,1,0,0,0,Home,0.082,0
+PAT-1183,76,Female,Surgery,1,0,2,1,0,0,0,0,1,Home,0.096,0
+PAT-1184,87,Male,ICU,9,0,0,7,1,0,0,1,0,Home Health Care,0.515,1
+PAT-1185,20,Female,Surgery,10,0,0,18,0,0,0,0,1,Home,0.038,0
+PAT-1186,37,Male,Emergency,1,2,1,15,1,0,0,0,0,Home,0.143,0
+PAT-1187,76,Female,General Ward,1,3,1,13,0,1,0,0,0,Home Health Care,0.301,0
+PAT-1188,53,Female,Emergency,1,2,1,16,0,1,0,0,0,Home Health Care,0.101,0
+PAT-1189,36,Male,Emergency,1,1,2,7,0,0,0,0,0,Home Health Care,0.059,0
+PAT-1190,84,Male,General Ward,2,0,2,16,0,0,1,0,1,Home,0.327,0
+PAT-1191,36,Male,Surgery,2,2,0,13,0,1,0,0,1,Home,0.18,0
+PAT-1192,37,Female,Emergency,1,2,0,14,0,1,0,0,0,Skilled Nursing Facility,0.101,0
+PAT-1193,88,Female,General Ward,3,2,2,17,0,1,0,0,0,Skilled Nursing Facility,0.46,1
+PAT-1194,69,Male,Emergency,1,1,0,12,0,0,0,0,0,Home,0.063,0
+PAT-1195,50,Female,Cardiology,5,0,1,20,0,0,0,1,0,Home,0.202,0
+PAT-1196,57,Male,General Ward,2,0,0,13,1,1,0,0,0,Home,0.169,0
+PAT-1197,56,Male,Surgery,3,0,0,20,0,1,1,0,0,Home,0.179,0
+PAT-1198,18,Female,General Ward,1,0,1,15,0,0,0,0,0,Home Health Care,0.034,0
+PAT-1199,28,Male,Surgery,7,0,1,21,0,1,0,0,0,Skilled Nursing Facility,0.097,0
+PAT-1200,74,Female,Emergency,1,1,2,4,0,1,0,1,0,Home,0.292,0
+PAT-1201,67,Male,General Ward,1,1,1,2,0,0,1,0,0,Home,0.186,0
+PAT-1202,40,Female,General Ward,3,2,0,18,1,0,1,1,0,Skilled Nursing Facility,0.316,0
+PAT-1203,48,Male,Surgery,7,3,1,2,0,0,0,0,0,Home,0.102,0
+PAT-1204,59,Male,ICU,4,2,1,15,0,0,0,1,0,Skilled Nursing Facility,0.499,1
+PAT-1205,24,Female,Emergency,1,0,0,19,0,1,0,0,1,Home Health Care,0.036,0
+PAT-1206,33,Male,General Ward,1,2,0,15,0,0,0,0,0,Skilled Nursing Facility,0.114,0
+PAT-1207,77,Female,Surgery,3,0,1,20,1,1,0,0,1,Home,0.408,0
+PAT-1208,19,Female,Emergency,2,2,1,10,1,1,0,0,0,Home,0.142,0
+PAT-1209,18,Female,Cardiology,5,1,0,20,0,0,0,0,1,Home,0.066,0
+PAT-1210,65,Female,General Ward,4,2,2,11,0,0,0,0,0,Home,0.202,0
+PAT-1211,29,Female,Emergency,1,2,1,10,0,1,0,0,1,Home,0.263,0
+PAT-1212,86,Female,Emergency,1,0,4,5,0,1,1,1,0,Skilled Nursing Facility,0.789,1
+PAT-1213,54,Female,ICU,11,1,1,9,0,1,0,0,1,Home Health Care,0.336,0
+PAT-1214,49,Female,ICU,4,0,0,20,0,0,0,0,0,Home Health Care,0.044,0
+PAT-1215,26,Male,General Ward,5,1,1,19,0,0,0,1,0,Home,0.078,0
+PAT-1216,36,Male,Emergency,1,1,1,13,0,1,0,1,1,Home Health Care,0.257,0
+PAT-1217,65,Female,Emergency,1,2,2,18,0,1,0,0,0,Home Health Care,0.292,0
+PAT-1218,20,Male,General Ward,6,1,1,17,1,0,0,0,1,Home,0.094,0
+PAT-1219,37,Female,Emergency,1,3,0,6,0,1,0,0,0,Skilled Nursing Facility,0.087,0
+PAT-1220,41,Male,ICU,8,1,0,10,1,0,0,0,0,Home,0.074,0
+PAT-1221,71,Male,General Ward,4,1,2,2,0,1,0,0,1,Home,0.488,1
+PAT-1222,50,Female,Cardiology,6,1,1,6,0,1,0,0,0,Home,0.11,0
+PAT-1223,41,Female,Cardiology,6,1,0,21,1,0,1,0,0,Home Health Care,0.135,0
+PAT-1224,89,Male,Emergency,1,1,1,13,1,1,0,0,1,Home Health Care,0.6,1
+PAT-1225,53,Female,General Ward,1,0,1,18,0,0,0,1,1,Home,0.127,0
+PAT-1226,55,Female,Surgery,6,3,0,7,0,0,0,0,1,Home,0.18,0
+PAT-1227,42,Male,ICU,5,0,0,2,1,0,1,0,0,Home,0.099,0
+PAT-1228,35,Female,General Ward,4,2,1,14,0,0,0,0,0,Home,0.164,0
+PAT-1229,83,Male,ICU,13,5,0,5,0,0,0,0,0,Home,0.735,1
+PAT-1230,71,Male,Emergency,1,0,0,18,1,1,1,0,0,Home,0.274,0
+PAT-1231,52,Female,Emergency,2,2,1,11,0,1,0,0,1,Home,0.302,0
+PAT-1232,78,Male,ICU,6,1,0,10,0,0,0,1,0,Skilled Nursing Facility,0.303,0
+PAT-1233,58,Female,Emergency,1,1,0,11,0,1,0,0,0,Home,0.179,0
+PAT-1234,50,Female,Cardiology,3,0,1,2,0,1,1,0,0,Home Health Care,0.162,0
+PAT-1235,85,Male,ICU,8,2,0,15,0,1,0,0,1,Home,0.529,1
+PAT-1236,50,Female,Emergency,1,2,0,7,0,1,0,0,1,Home,0.155,0
+PAT-1237,31,Female,Surgery,8,0,1,9,0,0,0,0,0,Home,0.048,0
+PAT-1238,38,Male,ICU,5,1,3,5,0,0,0,0,0,Home,0.303,0
+PAT-1239,65,Female,ICU,14,1,3,7,0,1,0,0,1,Home,0.655,1
+PAT-1240,37,Female,Emergency,1,1,1,20,0,0,0,0,0,Skilled Nursing Facility,0.143,0
+PAT-1241,25,Female,Emergency,1,1,1,2,1,0,0,0,0,Skilled Nursing Facility,0.107,0
+PAT-1242,24,Female,Surgery,4,0,0,3,0,0,0,0,0,Home,0.018,0
+PAT-1243,84,Male,ICU,6,1,0,2,1,0,0,0,0,Home,0.217,0
+PAT-1244,34,Female,Cardiology,5,1,0,21,0,0,1,0,0,Skilled Nursing Facility,0.118,0
+PAT-1245,50,Female,General Ward,3,1,1,19,1,0,0,0,1,Home,0.168,0
+PAT-1246,65,Female,General Ward,2,1,0,4,0,0,1,0,0,Home Health Care,0.098,0
+PAT-1247,76,Female,Emergency,1,0,1,20,0,1,0,1,0,Skilled Nursing Facility,0.433,1
+PAT-1248,39,Female,General Ward,3,2,1,7,1,1,0,0,1,Skilled Nursing Facility,0.301,0
+PAT-1249,47,Female,General Ward,1,1,0,7,1,0,0,0,1,Home,0.134,0
+PAT-1250,55,Female,General Ward,3,1,2,17,0,0,0,0,0,Home,0.16,0
+PAT-1251,68,Female,General Ward,2,2,3,19,0,0,1,0,0,Home,0.405,0
+PAT-1252,71,Female,General Ward,4,0,0,16,0,0,1,0,0,Skilled Nursing Facility,0.28,0
+PAT-1253,25,Female,Cardiology,8,2,1,3,1,0,0,0,0,Skilled Nursing Facility,0.122,0
+PAT-1254,44,Female,General Ward,4,0,0,15,0,0,0,0,0,Home Health Care,0.045,0
+PAT-1255,44,Male,Emergency,1,1,1,14,0,1,0,0,0,Home Health Care,0.104,0
+PAT-1256,38,Male,Surgery,6,2,1,15,0,0,0,0,0,Home Health Care,0.107,0
+PAT-1257,47,Male,Cardiology,5,2,1,14,0,0,0,0,0,Home Health Care,0.08,0
+PAT-1258,45,Female,General Ward,4,2,2,7,1,0,0,0,0,Home Health Care,0.304,0
+PAT-1259,81,Female,Surgery,7,1,3,3,0,1,0,0,0,Home Health Care,0.518,1
+PAT-1260,86,Female,Emergency,1,2,0,17,0,1,0,1,0,Home,0.306,0
+PAT-1261,78,Male,Emergency,1,3,0,10,0,1,1,1,0,Home,0.618,1
+PAT-1262,65,Female,Emergency,2,1,0,15,0,1,1,0,0,Home Health Care,0.21,0
+PAT-1263,36,Male,Surgery,3,2,1,6,0,0,0,0,0,Home,0.057,0
+PAT-1264,21,Male,General Ward,1,1,1,17,0,0,1,0,0,Home,0.054,0
+PAT-1265,52,Female,Emergency,1,4,1,17,1,1,0,1,0,Home Health Care,0.647,1
+PAT-1266,81,Female,Emergency,1,0,1,14,0,0,0,0,0,Home Health Care,0.136,0
+PAT-1267,66,Male,Surgery,5,1,0,18,0,1,0,1,1,Skilled Nursing Facility,0.36,0
+PAT-1268,34,Male,Cardiology,6,0,1,5,1,1,0,0,1,Home,0.12,0
+PAT-1269,61,Male,General Ward,3,0,0,8,0,1,0,0,0,Home Health Care,0.064,0
+PAT-1270,47,Male,Cardiology,7,3,1,7,1,0,1,1,1,Home,0.645,1
+PAT-1271,63,Female,General Ward,1,0,0,4,1,1,1,0,0,Skilled Nursing Facility,0.188,0
+PAT-1272,23,Male,General Ward,3,3,0,18,0,0,0,0,0,Home,0.033,0
+PAT-1273,54,Female,General Ward,3,0,1,5,0,0,0,0,1,Home Health Care,0.169,0
+PAT-1274,41,Female,General Ward,2,0,0,16,0,0,0,0,0,Home Health Care,0.05,0
+PAT-1275,63,Male,Emergency,1,3,0,14,0,1,0,0,1,Home,0.185,0
+PAT-1276,70,Male,General Ward,3,2,1,19,1,0,0,0,0,Skilled Nursing Facility,0.355,0
+PAT-1277,77,Male,General Ward,1,2,0,14,0,0,0,0,0,Skilled Nursing Facility,0.144,0
+PAT-1278,80,Male,Cardiology,6,5,1,9,0,0,0,0,0,Home,0.474,1
+PAT-1279,49,Male,Surgery,4,1,1,6,0,1,0,0,0,Home,0.108,0
+PAT-1280,50,Female,Surgery,7,1,1,17,0,1,0,1,0,Home,0.219,0
+PAT-1281,84,Male,Surgery,4,0,1,19,0,1,0,0,0,Home,0.343,0
+PAT-1282,35,Female,Emergency,1,0,1,12,1,0,0,0,0,Skilled Nursing Facility,0.076,0
+PAT-1283,42,Male,General Ward,3,0,1,4,0,0,0,0,1,Skilled Nursing Facility,0.089,0
+PAT-1284,71,Female,ICU,8,4,2,16,0,1,0,0,1,Home,0.65,1
+PAT-1285,75,Female,Emergency,1,2,0,11,0,0,0,1,0,Home,0.33,0
+PAT-1286,84,Female,General Ward,4,0,1,4,1,1,0,0,0,Home,0.16,0
+PAT-1287,63,Female,Emergency,1,2,2,17,0,1,1,0,1,Home,0.443,1
+PAT-1288,41,Female,General Ward,1,1,0,8,1,0,0,0,0,Home,0.12,0
+PAT-1289,49,Female,General Ward,1,0,0,14,0,0,0,0,0,Home,0.044,0
+PAT-1290,64,Female,Emergency,1,1,3,2,1,1,0,1,0,Home,0.569,1
+PAT-1291,40,Female,Emergency,1,2,0,11,0,0,0,1,1,Home Health Care,0.344,0
+PAT-1292,83,Male,Emergency,1,2,0,11,0,0,0,0,0,Home Health Care,0.179,0
+PAT-1293,44,Male,Emergency,1,4,1,6,0,1,0,1,0,Home,0.314,0
+PAT-1294,19,Female,General Ward,1,2,0,21,0,0,1,0,0,Home Health Care,0.061,0
+PAT-1295,34,Female,General Ward,1,0,0,21,0,1,0,0,0,Home Health Care,0.024,0
+PAT-1296,50,Female,Surgery,8,1,0,14,0,0,0,0,0,Skilled Nursing Facility,0.168,0
+PAT-1297,26,Female,Emergency,2,0,2,10,0,1,0,0,0,Home,0.085,0
+PAT-1298,60,Female,General Ward,4,2,0,8,0,0,0,0,0,Skilled Nursing Facility,0.223,0
+PAT-1299,65,Male,Surgery,4,3,0,7,1,0,0,1,0,Skilled Nursing Facility,0.601,1
+PAT-1300,56,Male,General Ward,2,4,0,8,0,1,0,0,0,Home,0.195,0
+PAT-1301,59,Male,ICU,10,0,0,8,1,1,1,0,1,Home,0.309,0
+PAT-1302,43,Male,General Ward,3,1,1,2,0,0,0,0,1,Skilled Nursing Facility,0.162,0
+PAT-1303,67,Female,Emergency,1,2,0,16,0,0,1,0,0,Home Health Care,0.145,0
+PAT-1304,42,Male,Emergency,2,1,0,9,0,1,0,0,0,Skilled Nursing Facility,0.097,0
+PAT-1305,41,Female,General Ward,5,1,1,13,0,0,0,0,0,Home Health Care,0.122,0
+PAT-1306,30,Male,Surgery,7,1,1,12,1,1,0,0,0,Home Health Care,0.128,0
+PAT-1307,77,Female,ICU,3,0,1,17,0,1,0,0,1,Home,0.286,0
+PAT-1308,24,Female,General Ward,1,3,1,2,1,1,1,0,0,Home,0.262,0
+PAT-1309,74,Male,General Ward,1,1,0,13,1,0,0,1,0,Skilled Nursing Facility,0.406,0
+PAT-1310,53,Female,General Ward,6,0,1,1,0,0,0,0,1,Home,0.1,0
+PAT-1311,62,Male,General Ward,2,1,1,19,1,1,1,0,1,Home,0.254,0
+PAT-1312,37,Male,Emergency,3,1,5,11,0,0,1,0,0,Home Health Care,0.441,1
+PAT-1313,82,Male,Surgery,10,2,0,5,1,0,0,0,0,Home Health Care,0.412,0
+PAT-1314,25,Male,Emergency,1,1,0,1,0,0,1,1,0,Home,0.125,0
+PAT-1315,33,Male,General Ward,1,1,4,20,0,0,0,0,1,Home,0.201,0
+PAT-1316,31,Female,General Ward,3,2,0,13,1,0,1,0,1,Home,0.151,0
+PAT-1317,32,Female,General Ward,1,0,0,8,0,0,0,1,0,Home,0.063,0
+PAT-1318,83,Female,ICU,6,1,0,6,0,1,1,0,0,Home Health Care,0.362,0
+PAT-1319,49,Male,Surgery,3,2,0,17,0,0,1,0,0,Home,0.139,0
+PAT-1320,80,Female,General Ward,6,4,2,12,0,0,0,0,0,Skilled Nursing Facility,0.756,1
+PAT-1321,68,Male,Emergency,1,0,0,1,0,0,0,0,0,Home Health Care,0.044,0
+PAT-1322,42,Male,Surgery,4,2,0,3,1,1,0,0,0,Home Health Care,0.261,0
+PAT-1323,75,Female,ICU,5,2,0,14,0,0,0,0,0,Home,0.196,0
+PAT-1324,80,Male,Surgery,7,1,1,8,0,1,0,1,1,Home,0.358,0
+PAT-1325,79,Female,Emergency,1,1,0,11,0,1,1,0,0,Home,0.223,0
+PAT-1326,39,Female,Emergency,1,1,0,14,0,0,0,0,0,Home,0.063,0
+PAT-1327,75,Male,Emergency,1,2,0,8,1,0,0,0,0,Home Health Care,0.179,0
+PAT-1328,75,Male,ICU,1,1,1,3,1,0,0,0,1,Home,0.229,0
+PAT-1329,66,Male,General Ward,1,0,0,7,1,1,1,0,0,Home Health Care,0.188,0
+PAT-1330,69,Female,General Ward,1,1,0,19,0,1,0,0,1,Home,0.134,0
+PAT-1331,59,Male,General Ward,2,1,0,4,0,1,0,0,0,Home,0.116,0
+PAT-1332,87,Male,Emergency,1,1,2,16,1,0,1,0,1,Skilled Nursing Facility,0.757,1
+PAT-1333,32,Male,General Ward,2,1,1,13,1,1,0,0,1,Home,0.122,0
+PAT-1334,71,Female,Cardiology,4,3,1,20,0,0,0,0,0,Home,0.213,0
+PAT-1335,77,Male,Emergency,2,0,0,19,0,0,0,0,1,Home,0.165,0
+PAT-1336,25,Male,ICU,11,0,3,5,1,1,1,0,0,Home,0.296,0
+PAT-1337,70,Female,General Ward,2,0,0,5,0,1,0,0,0,Home Health Care,0.061,0
+PAT-1338,77,Female,Surgery,5,1,1,20,0,0,0,0,0,Home,0.12,0
+PAT-1339,22,Male,Surgery,3,0,0,4,0,0,1,0,0,Home,0.047,0
+PAT-1340,85,Male,Emergency,1,0,0,2,0,0,0,1,1,Home,0.279,0
+PAT-1341,23,Male,General Ward,3,0,0,13,0,0,0,0,1,Skilled Nursing Facility,0.041,0
+PAT-1342,64,Female,ICU,9,0,0,16,0,0,1,0,0,Home,0.168,0
+PAT-1343,72,Male,General Ward,1,0,1,2,0,1,0,0,0,Home,0.216,0
+PAT-1344,57,Female,General Ward,3,1,1,19,0,1,1,0,0,Home,0.166,0
+PAT-1345,69,Female,Surgery,4,0,0,17,0,1,0,0,0,Home,0.047,0
+PAT-1346,33,Female,Emergency,1,1,1,5,0,1,1,0,0,Home,0.149,0
+PAT-1347,30,Male,Emergency,1,0,1,18,1,0,0,0,1,Home,0.088,0
+PAT-1348,47,Female,Surgery,8,0,0,21,1,1,0,0,0,Home,0.082,0
+PAT-1349,36,Female,Emergency,1,2,1,18,0,1,1,0,0,Home,0.225,0
+PAT-1350,34,Female,ICU,12,0,0,8,0,0,0,0,1,Home,0.123,0
+PAT-1351,80,Male,General Ward,5,1,2,15,1,1,0,0,0,Skilled Nursing Facility,0.303,0
+PAT-1352,36,Female,Cardiology,2,0,0,13,0,0,1,0,0,Home Health Care,0.043,0
+PAT-1353,75,Male,General Ward,1,3,0,13,0,1,0,1,0,Home,0.611,1
+PAT-1354,72,Male,Cardiology,7,0,1,16,1,1,1,0,0,Home,0.421,1
+PAT-1355,79,Male,Surgery,3,0,0,20,0,0,0,0,1,Home Health Care,0.174,0
+PAT-1356,40,Female,General Ward,2,1,0,13,1,1,0,0,0,Skilled Nursing Facility,0.193,0
+PAT-1357,26,Male,Emergency,2,3,3,20,1,0,0,0,0,Home,0.27,0
+PAT-1358,29,Male,Surgery,4,1,3,2,0,1,0,0,0,Home Health Care,0.205,0
+PAT-1359,18,Male,Emergency,1,1,0,3,0,0,0,0,0,Home,0.035,0
+PAT-1360,75,Male,Cardiology,3,0,1,15,0,0,0,0,1,Home,0.213,0
+PAT-1361,18,Female,Cardiology,12,0,1,19,0,0,1,0,1,Skilled Nursing Facility,0.157,0
+PAT-1362,51,Female,ICU,7,1,3,13,0,1,0,0,1,Home Health Care,0.449,1
+PAT-1363,65,Male,ICU,2,2,0,5,0,0,0,0,0,Skilled Nursing Facility,0.153,0
+PAT-1364,18,Male,Cardiology,1,1,1,6,0,1,0,0,0,Home,0.052,0
+PAT-1365,33,Female,Emergency,1,4,0,14,1,0,0,1,0,Home,0.184,0
+PAT-1366,78,Male,General Ward,2,0,0,4,0,1,0,0,0,Home Health Care,0.082,0
+PAT-1367,81,Male,General Ward,4,2,1,19,0,1,0,0,0,Home,0.281,0
+PAT-1368,80,Female,Emergency,1,0,3,7,0,0,0,0,0,Home,0.171,0
+PAT-1369,86,Female,Cardiology,5,1,5,4,0,0,0,0,1,Home,0.645,1
+PAT-1370,39,Male,Surgery,3,1,0,2,0,1,0,0,0,Home,0.061,0
+PAT-1371,84,Female,Emergency,1,0,0,7,0,1,0,0,0,Home,0.137,0
+PAT-1372,43,Male,General Ward,1,0,0,3,0,1,0,0,0,Home Health Care,0.066,0
+PAT-1373,33,Female,General Ward,6,3,0,15,1,0,1,1,0,Skilled Nursing Facility,0.411,0
+PAT-1374,68,Male,Surgery,6,0,0,1,1,0,0,0,0,Home,0.188,0
+PAT-1375,74,Male,General Ward,4,2,0,2,0,1,0,0,0,Home Health Care,0.264,0
+PAT-1376,46,Male,General Ward,1,1,1,10,0,0,0,0,0,Home,0.091,0
+PAT-1377,86,Female,General Ward,5,0,0,16,0,0,0,0,0,Skilled Nursing Facility,0.163,0
+PAT-1378,64,Female,Emergency,1,0,2,15,0,0,1,0,1,Home,0.316,0
+PAT-1379,79,Male,Cardiology,3,1,1,15,0,1,1,0,0,Home Health Care,0.45,1
+PAT-1380,86,Male,General Ward,2,3,0,14,1,1,0,0,1,Home Health Care,0.643,1
+PAT-1381,33,Female,ICU,7,0,0,14,0,0,0,0,0,Home,0.073,0
+PAT-1382,65,Male,Emergency,1,0,0,6,0,0,0,1,0,Home,0.113,0
+PAT-1383,56,Male,Cardiology,3,0,1,14,0,0,0,0,1,Skilled Nursing Facility,0.193,0
+PAT-1384,50,Female,General Ward,1,3,0,17,1,0,1,0,0,Home,0.375,0
+PAT-1385,40,Male,ICU,4,1,0,18,1,0,0,0,0,Home Health Care,0.076,0
+PAT-1386,27,Female,ICU,6,0,0,20,0,1,0,0,1,Skilled Nursing Facility,0.095,0
+PAT-1387,86,Female,Surgery,1,2,1,19,0,0,0,0,0,Home,0.242,0
+PAT-1388,51,Male,ICU,5,2,0,17,0,0,0,0,0,Skilled Nursing Facility,0.212,0
+PAT-1389,69,Male,General Ward,5,1,0,16,0,1,0,0,0,Skilled Nursing Facility,0.248,0
+PAT-1390,27,Male,Emergency,1,0,0,8,0,0,1,0,1,Home Health Care,0.062,0
+PAT-1391,36,Female,Surgery,1,2,0,7,1,1,0,0,1,Home,0.104,0
+PAT-1392,75,Female,General Ward,4,2,1,20,1,0,0,0,0,Home,0.326,0
+PAT-1393,18,Female,Surgery,1,1,2,12,1,0,0,0,0,Home,0.062,0
+PAT-1394,86,Male,General Ward,7,1,0,9,0,1,0,1,0,Home Health Care,0.232,0
+PAT-1395,21,Female,Emergency,2,1,2,14,1,1,0,0,0,Home Health Care,0.081,0
+PAT-1396,33,Female,ICU,5,1,2,20,1,0,0,0,0,Home Health Care,0.191,0
+PAT-1397,41,Female,Emergency,1,1,1,1,0,1,0,0,0,Home,0.144,0
+PAT-1398,19,Female,ICU,2,0,2,10,1,1,0,1,0,Home,0.196,0
+PAT-1399,49,Female,Surgery,5,3,0,17,0,0,1,0,0,Home Health Care,0.224,0
+PAT-1400,41,Female,Emergency,1,2,0,17,1,0,0,0,1,Home Health Care,0.222,0
+PAT-1401,29,Female,Emergency,1,0,1,17,0,1,1,0,0,Skilled Nursing Facility,0.066,0
+PAT-1402,67,Male,Surgery,3,3,3,4,0,0,0,0,0,Home Health Care,0.458,1
+PAT-1403,52,Male,Surgery,3,1,0,17,0,1,0,0,0,Home Health Care,0.087,0
+PAT-1404,50,Female,General Ward,1,2,1,18,0,1,0,0,1,Home Health Care,0.264,0
+PAT-1405,50,Male,ICU,4,1,1,20,0,1,1,0,1,Home Health Care,0.301,0
+PAT-1406,78,Female,Cardiology,1,2,1,2,0,0,0,0,1,Home,0.236,0
+PAT-1407,68,Female,General Ward,4,1,0,8,0,0,0,0,0,Skilled Nursing Facility,0.143,0
+PAT-1408,60,Female,Emergency,1,0,1,13,0,1,0,0,1,Home Health Care,0.261,0
+PAT-1409,29,Male,Cardiology,2,2,0,20,1,0,0,0,0,Home,0.106,0
+PAT-1410,84,Male,General Ward,4,0,0,15,1,0,0,1,0,Home,0.231,0
+PAT-1411,82,Male,Emergency,1,1,1,20,0,0,1,1,0,Home,0.302,0
+PAT-1412,50,Female,ICU,11,1,2,9,1,0,0,0,1,Home,0.264,0
+PAT-1413,57,Female,Emergency,1,3,1,3,0,1,0,0,1,Home,0.451,1
+PAT-1414,60,Female,General Ward,6,0,2,3,1,0,0,0,1,Home,0.217,0
+PAT-1415,61,Male,General Ward,2,0,2,2,0,1,0,0,1,Home,0.205,0
+PAT-1416,46,Female,Emergency,1,2,0,1,0,0,0,0,0,Home,0.117,0
+PAT-1417,30,Female,Surgery,5,2,1,14,0,1,1,0,0,Home Health Care,0.11,0
+PAT-1418,29,Male,Surgery,2,0,0,17,0,0,0,1,0,Home,0.089,0
+PAT-1419,63,Female,Emergency,1,0,1,13,1,1,1,1,1,Home,0.506,1
+PAT-1420,19,Male,General Ward,3,0,0,19,1,1,1,0,0,Home,0.05,0
+PAT-1421,52,Male,Emergency,1,2,2,15,0,0,0,0,1,Home,0.232,0
+PAT-1422,25,Female,General Ward,1,3,2,14,0,1,0,1,0,Home,0.229,0
+PAT-1423,43,Male,Cardiology,9,0,0,2,1,0,0,1,0,Home Health Care,0.168,0
+PAT-1424,51,Female,Surgery,2,2,0,7,1,1,1,1,0,Home Health Care,0.358,0
+PAT-1425,24,Female,Emergency,1,1,1,17,0,1,0,0,0,Home,0.029,0
+PAT-1426,85,Female,Cardiology,7,4,5,18,0,1,0,0,1,Home Health Care,0.894,1
+PAT-1427,75,Male,General Ward,2,1,0,6,0,1,0,0,0,Home,0.086,0
+PAT-1428,46,Female,Emergency,1,2,1,21,0,0,0,0,0,Skilled Nursing Facility,0.152,0
+PAT-1429,53,Female,General Ward,4,2,1,8,0,0,0,0,0,Skilled Nursing Facility,0.125,0
+PAT-1430,38,Female,Cardiology,4,2,1,2,0,0,0,0,0,Home,0.084,0
+PAT-1431,53,Male,General Ward,4,2,1,1,1,0,1,1,0,Home Health Care,0.5,1
+PAT-1432,27,Male,Emergency,1,1,1,16,0,1,1,1,0,Home Health Care,0.188,0
+PAT-1433,41,Female,Surgery,1,1,1,7,1,0,0,0,1,Home Health Care,0.172,0
+PAT-1434,81,Male,General Ward,4,1,1,11,1,1,0,1,0,Home Health Care,0.561,1
+PAT-1435,66,Female,ICU,9,4,0,15,1,0,1,0,0,Skilled Nursing Facility,0.547,1
+PAT-1436,53,Female,Surgery,3,0,1,13,0,0,0,0,0,Home,0.069,0
+PAT-1437,41,Female,ICU,9,0,0,2,1,1,1,0,0,Home Health Care,0.06,0
+PAT-1438,40,Female,General Ward,1,2,0,14,0,0,0,0,0,Home Health Care,0.069,0
+PAT-1439,79,Female,General Ward,3,1,2,6,0,1,0,0,0,Home Health Care,0.27,0
+PAT-1440,54,Female,General Ward,3,0,1,9,0,0,0,0,0,Home Health Care,0.05,0
+PAT-1441,29,Female,Surgery,3,4,1,7,0,1,0,0,0,Home,0.206,0
+PAT-1442,72,Female,Emergency,1,1,1,18,1,0,1,0,0,Home,0.418,0
+PAT-1443,30,Male,General Ward,3,0,1,9,1,0,0,1,1,Home,0.156,0
+PAT-1444,40,Male,ICU,7,3,0,4,0,1,0,0,1,Home,0.193,0
+PAT-1445,47,Female,ICU,6,0,0,9,0,1,0,0,0,Home,0.082,0
+PAT-1446,34,Male,General Ward,1,1,2,4,0,0,1,0,0,Skilled Nursing Facility,0.121,0
+PAT-1447,79,Male,ICU,8,1,3,12,0,0,0,0,0,Home Health Care,0.357,0
+PAT-1448,30,Male,General Ward,2,0,1,4,1,0,1,0,0,Home Health Care,0.16,0
+PAT-1449,76,Female,General Ward,1,2,2,20,0,0,0,0,1,Home,0.383,0
+PAT-1450,36,Female,Emergency,1,0,1,14,1,1,0,0,1,Home Health Care,0.069,0
+PAT-1451,66,Female,General Ward,6,1,1,7,0,1,0,0,0,Home Health Care,0.103,0
+PAT-1452,29,Female,Emergency,1,2,0,13,0,0,0,0,0,Home Health Care,0.052,0
+PAT-1453,78,Female,Emergency,2,1,2,8,0,0,0,0,0,Home,0.288,0
+PAT-1454,36,Male,Emergency,3,1,0,5,0,1,0,0,0,Home,0.032,0
+PAT-1455,26,Female,Emergency,1,1,0,12,0,0,0,1,1,Home Health Care,0.117,0
+PAT-1456,88,Male,Emergency,1,2,0,13,1,1,0,0,0,Home,0.446,1
+PAT-1457,45,Female,Surgery,11,1,2,20,1,0,0,0,0,Skilled Nursing Facility,0.483,1
+PAT-1458,69,Female,Emergency,1,1,1,14,0,1,0,1,0,Skilled Nursing Facility,0.391,0
+PAT-1459,33,Male,Emergency,1,0,0,18,0,0,0,0,0,Skilled Nursing Facility,0.046,0
+PAT-1460,86,Male,Surgery,1,1,0,20,0,1,0,0,0,Home Health Care,0.079,0
+PAT-1461,29,Male,Emergency,1,5,1,4,0,0,0,1,0,Skilled Nursing Facility,0.59,1
+PAT-1462,42,Male,General Ward,4,1,0,21,0,0,1,0,0,Home Health Care,0.077,0
+PAT-1463,69,Male,General Ward,7,1,0,18,0,1,1,0,1,Home,0.269,0
+PAT-1464,70,Female,General Ward,2,2,0,7,1,0,0,1,1,Home,0.413,0
+PAT-1465,40,Female,Surgery,1,1,0,15,0,0,0,1,0,Home,0.149,0
+PAT-1466,33,Female,Emergency,1,2,1,21,1,0,1,0,1,Home,0.49,1
+PAT-1467,74,Female,Cardiology,5,0,1,6,0,0,0,0,0,Home,0.13,0
+PAT-1468,56,Female,Emergency,2,0,4,16,1,1,0,0,1,Home,0.574,1
+PAT-1469,70,Female,ICU,10,0,0,20,0,1,1,0,1,Home Health Care,0.358,0
+PAT-1470,59,Male,General Ward,3,2,0,8,0,0,0,0,0,Home,0.073,0
+PAT-1471,75,Female,Emergency,2,3,0,21,1,1,0,0,1,Home,0.602,1
+PAT-1472,56,Male,Emergency,1,1,0,16,0,0,1,0,0,Home Health Care,0.091,0
+PAT-1473,31,Female,Cardiology,6,0,2,16,0,1,0,1,0,Home Health Care,0.277,0
+PAT-1474,22,Female,General Ward,1,0,2,3,1,0,0,1,0,Skilled Nursing Facility,0.263,0
+PAT-1475,52,Female,Emergency,1,3,1,17,1,1,0,1,1,Home Health Care,0.633,1
+PAT-1476,35,Male,Emergency,1,1,0,9,1,0,0,1,1,Home,0.311,0
+PAT-1477,26,Female,Emergency,1,0,3,3,0,0,0,0,0,Home,0.16,0
+PAT-1478,75,Female,Emergency,1,4,1,20,0,0,0,0,0,Home,0.311,0
+PAT-1479,34,Male,Surgery,3,0,0,7,1,0,0,0,0,Home,0.035,0
+PAT-1480,24,Male,General Ward,2,1,0,18,0,1,1,0,1,Home,0.06,0
+PAT-1481,63,Female,Emergency,1,2,1,12,0,0,0,0,0,Skilled Nursing Facility,0.383,0
+PAT-1482,30,Male,Emergency,2,0,0,19,0,1,0,0,1,Home,0.049,0
+PAT-1483,57,Female,Surgery,8,0,0,16,0,0,0,1,0,Home,0.187,0
+PAT-1484,59,Male,Surgery,7,1,1,17,0,1,0,0,0,Home,0.133,0
+PAT-1485,26,Male,General Ward,1,2,1,20,0,1,0,0,0,Home Health Care,0.15,0
+PAT-1486,67,Female,General Ward,2,0,1,15,0,1,1,0,1,Home,0.24,0
+PAT-1487,44,Male,Cardiology,5,0,1,1,0,1,1,0,0,Home,0.093,0
+PAT-1488,83,Female,Emergency,1,1,2,2,0,1,0,0,1,Home,0.387,0
+PAT-1489,22,Male,Cardiology,7,1,0,8,0,0,0,0,0,Home,0.032,0
+PAT-1490,46,Male,General Ward,1,2,0,2,1,1,0,0,0,Home,0.173,0
+PAT-1491,54,Female,Emergency,2,1,1,19,0,0,0,0,1,Home,0.145,0
+PAT-1492,55,Female,Surgery,8,0,0,9,0,0,0,0,1,Home,0.127,0
+PAT-1493,25,Female,Cardiology,7,3,0,9,1,0,1,0,1,Home Health Care,0.271,0
+PAT-1494,82,Female,General Ward,2,3,3,13,0,1,0,1,0,Home,0.665,1
+PAT-1495,34,Female,Emergency,2,3,0,6,0,0,0,0,0,Home Health Care,0.064,0
+PAT-1496,88,Male,Emergency,1,1,2,15,0,0,0,1,0,Home,0.615,1
+PAT-1497,62,Male,General Ward,5,1,3,19,1,0,0,0,0,Home,0.364,0
+PAT-1498,21,Female,Emergency,1,2,2,21,1,1,0,0,1,Home,0.128,0
+PAT-1499,53,Female,Emergency,2,0,0,15,1,0,0,0,0,Home,0.058,0
+PAT-1500,87,Female,Cardiology,9,0,0,18,1,0,0,0,0,Home,0.208,0
+PAT-1501,48,Male,ICU,10,1,2,7,0,0,0,0,0,Home,0.34,0
+PAT-1502,36,Male,General Ward,5,0,0,11,0,1,0,0,0,Home Health Care,0.07,0
+PAT-1503,78,Female,General Ward,2,0,0,8,0,1,0,1,0,Home Health Care,0.146,0
+PAT-1504,71,Female,ICU,3,1,1,6,0,1,0,0,0,Home Health Care,0.424,1
+PAT-1505,56,Female,General Ward,3,1,3,8,0,1,1,0,0,Home,0.386,0
+PAT-1506,36,Female,Surgery,4,1,0,2,0,0,0,0,0,Home Health Care,0.076,0
+PAT-1507,56,Female,ICU,7,1,1,19,0,1,0,0,1,Home,0.196,0
+PAT-1508,84,Male,Cardiology,9,4,0,16,1,0,0,0,0,Home Health Care,0.267,0
+PAT-1509,62,Male,Cardiology,6,2,1,7,0,0,0,0,0,Home,0.113,0
+PAT-1510,30,Male,Emergency,1,2,0,10,0,0,0,0,1,Home,0.023,0
+PAT-1511,75,Male,Cardiology,5,0,0,12,0,1,0,0,1,Skilled Nursing Facility,0.418,0
+PAT-1512,37,Female,Surgery,7,0,0,17,0,1,0,0,1,Home Health Care,0.092,0
+PAT-1513,89,Male,Emergency,1,1,1,7,0,0,0,0,1,Home,0.215,0
+PAT-1514,78,Female,General Ward,4,0,0,8,0,1,0,0,0,Home,0.14,0
+PAT-1515,56,Male,ICU,6,0,1,7,0,0,0,0,1,Home,0.172,0
+PAT-1516,18,Male,Emergency,2,2,0,4,1,0,1,0,0,Skilled Nursing Facility,0.175,0
+PAT-1517,20,Male,Surgery,10,0,0,3,1,0,0,0,0,Home,0.075,0
+PAT-1518,79,Male,ICU,11,0,0,19,0,1,0,0,1,Skilled Nursing Facility,0.334,0
+PAT-1519,80,Female,Surgery,2,2,0,15,0,1,0,0,0,Home,0.154,0
+PAT-1520,42,Male,Emergency,1,0,0,4,0,0,0,0,1,Home,0.075,0
+PAT-1521,73,Female,General Ward,2,2,1,9,1,1,0,0,1,Home Health Care,0.536,1
+PAT-1522,50,Male,Cardiology,4,0,2,13,0,0,1,0,0,Home,0.174,0
+PAT-1523,55,Male,Emergency,1,2,0,18,0,1,1,0,1,Home,0.487,1
+PAT-1524,23,Male,ICU,10,2,0,21,1,1,0,0,0,Home,0.13,0
+PAT-1525,75,Female,Emergency,1,2,1,16,0,0,0,0,0,Home Health Care,0.144,0
+PAT-1526,61,Female,General Ward,3,1,1,1,0,1,0,0,1,Home Health Care,0.258,0
+PAT-1527,62,Male,Emergency,1,1,1,4,0,1,0,0,0,Home Health Care,0.112,0
+PAT-1528,49,Male,ICU,7,2,0,18,0,0,0,0,1,Home Health Care,0.218,0
+PAT-1529,62,Female,ICU,11,2,0,8,0,1,1,0,0,Home Health Care,0.293,0
+PAT-1530,78,Male,Cardiology,1,2,0,20,0,0,0,0,0,Home,0.129,0
+PAT-1531,64,Male,Emergency,1,1,1,16,1,0,0,0,1,Home,0.415,0
+PAT-1532,38,Female,General Ward,3,0,2,21,0,0,0,0,0,Home Health Care,0.062,0
+PAT-1533,53,Female,ICU,11,2,1,11,0,0,0,0,0,Skilled Nursing Facility,0.224,0
+PAT-1534,36,Male,Cardiology,2,1,1,20,0,1,0,0,0,Home,0.127,0
+PAT-1535,37,Female,General Ward,1,2,0,21,1,1,0,0,1,Home,0.125,0
+PAT-1536,74,Female,General Ward,4,0,0,21,0,1,0,0,0,Home,0.085,0
+PAT-1537,35,Male,General Ward,1,3,0,21,0,0,0,0,1,Home,0.149,0
+PAT-1538,64,Female,General Ward,5,1,2,19,0,0,0,0,0,Home,0.255,0
+PAT-1539,66,Female,Surgery,5,2,2,19,1,0,0,0,0,Home Health Care,0.472,1
+PAT-1540,31,Male,Emergency,2,1,1,18,0,0,0,0,1,Home,0.068,0
+PAT-1541,32,Male,ICU,3,2,3,19,0,1,0,1,0,Home Health Care,0.46,1
+PAT-1542,48,Male,Emergency,1,1,2,11,0,1,0,0,0,Home Health Care,0.126,0
+PAT-1543,18,Female,ICU,1,1,0,3,1,0,0,0,1,Skilled Nursing Facility,0.088,0
+PAT-1544,71,Male,Cardiology,3,1,0,8,0,1,0,0,1,Home,0.29,0
+PAT-1545,20,Female,Cardiology,5,2,1,20,0,1,0,0,0,Home,0.074,0
+PAT-1546,33,Female,ICU,1,2,3,19,1,0,0,0,0,Home,0.286,0
+PAT-1547,74,Male,Surgery,3,0,2,10,1,1,0,0,1,Home,0.416,0
+PAT-1548,29,Female,Surgery,1,1,1,16,0,0,0,0,1,Home,0.055,0
+PAT-1549,33,Male,General Ward,2,0,0,5,1,0,1,1,1,Home Health Care,0.291,0
+PAT-1550,89,Female,General Ward,5,1,0,20,0,0,0,0,0,Home,0.198,0
+PAT-1551,41,Female,ICU,7,0,1,9,0,0,0,0,1,Skilled Nursing Facility,0.082,0
+PAT-1552,45,Male,Surgery,9,0,1,8,1,0,0,0,0,Home Health Care,0.129,0
+PAT-1553,25,Male,Cardiology,8,0,2,11,0,0,0,0,0,Home Health Care,0.05,0
+PAT-1554,53,Male,Surgery,9,0,3,16,0,0,0,0,0,Home Health Care,0.262,0
+PAT-1555,25,Male,Surgery,2,1,0,7,0,1,0,0,0,Home,0.025,0
+PAT-1556,75,Male,Emergency,1,1,0,15,0,1,0,0,0,Home Health Care,0.117,0
+PAT-1557,77,Male,Surgery,6,1,1,21,0,1,0,0,0,Home,0.263,0
+PAT-1558,67,Female,Surgery,1,2,0,20,1,0,0,0,0,Skilled Nursing Facility,0.231,0
+PAT-1559,45,Male,ICU,9,2,3,17,1,0,1,0,1,Home,0.747,1
+PAT-1560,58,Male,Emergency,1,3,3,6,0,0,0,0,0,Home,0.213,0
+PAT-1561,81,Female,Surgery,8,4,0,15,0,0,0,0,0,Home,0.509,1
+PAT-1562,44,Male,General Ward,4,1,1,8,1,1,1,0,0,Home,0.302,0
+PAT-1563,80,Female,Surgery,8,0,0,7,0,1,1,0,0,Home,0.353,0
+PAT-1564,34,Female,General Ward,1,1,0,2,0,1,0,0,0,Home,0.072,0
+PAT-1565,50,Female,Emergency,2,0,1,13,0,1,0,0,0,Skilled Nursing Facility,0.114,0
+PAT-1566,46,Male,Surgery,9,1,0,6,0,0,0,0,1,Home,0.075,0
+PAT-1567,30,Male,General Ward,2,2,0,5,0,0,0,0,1,Home,0.068,0
+PAT-1568,63,Male,General Ward,1,0,1,20,0,1,1,0,1,Home,0.404,0
+PAT-1569,52,Female,ICU,5,0,0,1,0,0,0,0,0,Home,0.105,0
+PAT-1570,23,Male,Surgery,8,1,0,18,0,0,0,0,0,Home,0.033,0
+PAT-1571,86,Male,General Ward,8,1,4,15,0,0,1,1,0,Home Health Care,0.555,1
+PAT-1572,64,Female,Cardiology,3,1,1,10,1,0,0,0,1,Home,0.253,0
+PAT-1573,42,Male,General Ward,1,1,1,3,1,0,0,0,0,Home,0.094,0
+PAT-1574,83,Male,Cardiology,8,1,1,5,0,1,1,0,0,Home,0.395,0
+PAT-1575,27,Male,Cardiology,3,1,0,13,0,1,1,0,0,Home,0.103,0
+PAT-1576,73,Female,ICU,12,1,1,8,1,0,1,0,0,Home,0.581,1
+PAT-1577,47,Male,Emergency,1,0,0,21,0,0,0,0,1,Home Health Care,0.089,0
+PAT-1578,22,Female,ICU,7,0,0,2,1,1,1,0,1,Home,0.211,0
+PAT-1579,50,Female,Emergency,1,2,0,9,0,0,0,1,1,Home,0.122,0
+PAT-1580,82,Male,General Ward,3,0,0,17,1,0,0,0,0,Home Health Care,0.126,0
+PAT-1581,35,Female,General Ward,2,0,1,18,0,0,1,0,1,Home,0.259,0
+PAT-1582,66,Male,General Ward,1,0,1,13,0,0,0,1,0,Home Health Care,0.182,0
+PAT-1583,28,Male,ICU,8,0,2,1,0,1,1,1,1,Home,0.474,1
+PAT-1584,43,Female,General Ward,6,2,3,12,0,1,0,0,0,Home,0.325,0
+PAT-1585,80,Female,Emergency,1,1,0,20,0,0,0,0,0,Home Health Care,0.132,0
+PAT-1586,76,Female,Cardiology,3,1,1,20,0,0,0,0,1,Home,0.109,0
+PAT-1587,44,Female,ICU,9,4,2,21,1,0,0,0,0,Skilled Nursing Facility,0.551,1
+PAT-1588,66,Male,Emergency,1,1,1,5,0,0,0,0,1,Home,0.18,0
+PAT-1589,50,Male,ICU,9,2,0,8,0,1,0,0,1,Home Health Care,0.369,0
+PAT-1590,18,Male,Surgery,2,1,0,15,0,1,1,0,0,Skilled Nursing Facility,0.093,0
+PAT-1591,38,Male,Cardiology,9,4,3,3,0,0,0,0,0,Home Health Care,0.248,0
+PAT-1592,72,Male,Surgery,5,4,3,6,0,1,0,0,0,Home Health Care,0.662,1
+PAT-1593,23,Male,Cardiology,8,3,1,13,0,1,0,0,1,Home Health Care,0.176,0
+PAT-1594,86,Male,General Ward,3,0,1,12,0,1,1,0,0,Home,0.208,0
+PAT-1595,22,Male,Surgery,5,1,0,19,0,0,0,0,0,Home,0.026,0
+PAT-1596,20,Female,Surgery,6,0,1,18,0,0,0,0,0,Home,0.046,0
+PAT-1597,70,Female,General Ward,3,0,1,1,0,1,0,0,0,Home,0.206,0
+PAT-1598,40,Male,Cardiology,2,1,1,7,0,0,0,0,1,Home Health Care,0.129,0
+PAT-1599,70,Female,General Ward,5,1,0,12,0,1,0,0,0,Home,0.175,0
+PAT-1600,54,Female,Emergency,1,4,0,10,1,1,0,0,0,Home,0.329,0
+PAT-1601,34,Male,General Ward,1,2,0,12,0,1,0,0,1,Home Health Care,0.118,0
+PAT-1602,18,Female,ICU,5,0,0,11,0,0,1,0,0,Home,0.065,0
+PAT-1603,68,Female,Emergency,2,1,0,4,0,1,1,0,0,Home,0.086,0
+PAT-1604,62,Female,Emergency,1,1,0,19,0,0,0,0,0,Home,0.079,0
+PAT-1605,21,Male,ICU,11,1,1,6,0,1,0,0,0,Home,0.073,0
+PAT-1606,79,Female,General Ward,2,0,2,9,0,0,1,0,0,Home Health Care,0.375,0
+PAT-1607,82,Male,Surgery,9,1,3,20,1,0,0,0,1,Home,0.62,1
+PAT-1608,49,Female,General Ward,2,3,2,10,1,1,0,0,1,Home,0.497,1
+PAT-1609,51,Female,ICU,5,1,0,5,1,0,0,0,1,Home Health Care,0.116,0
+PAT-1610,89,Female,Cardiology,6,0,0,13,0,0,0,0,1,Home,0.265,0
+PAT-1611,56,Female,Surgery,4,1,1,9,0,1,1,0,0,Home Health Care,0.279,0
+PAT-1612,43,Female,ICU,4,0,1,2,0,0,0,0,0,Skilled Nursing Facility,0.119,0
+PAT-1613,51,Male,Surgery,11,2,1,18,1,1,0,0,0,Home,0.25,0
+PAT-1614,71,Male,Surgery,2,0,0,21,0,0,0,0,1,Home,0.084,0
+PAT-1615,20,Female,Surgery,1,1,1,1,0,1,0,1,0,Home,0.113,0
+PAT-1616,67,Male,Emergency,2,1,0,21,0,1,0,1,0,Home Health Care,0.168,0
+PAT-1617,29,Male,General Ward,1,2,0,12,0,0,0,0,0,Home,0.057,0
+PAT-1618,82,Male,General Ward,2,2,2,10,1,0,1,0,0,Home,0.351,0
+PAT-1619,71,Male,General Ward,2,1,1,2,0,1,1,0,0,Home Health Care,0.246,0
+PAT-1620,22,Female,Emergency,1,0,1,9,0,0,1,1,1,Home,0.283,0
+PAT-1621,74,Female,General Ward,1,2,0,2,0,0,1,0,0,Home,0.255,0
+PAT-1622,34,Female,Emergency,1,1,0,14,1,1,0,0,1,Home Health Care,0.132,0
+PAT-1623,64,Female,ICU,8,3,0,11,0,0,0,0,0,Home,0.4,0
+PAT-1624,40,Male,General Ward,2,2,1,11,1,0,0,0,1,Home Health Care,0.097,0
+PAT-1625,31,Male,Surgery,7,0,1,17,0,1,0,0,1,Home Health Care,0.079,0
+PAT-1626,83,Female,ICU,9,1,0,4,1,0,1,0,1,Home,0.504,1
+PAT-1627,68,Male,General Ward,1,0,0,13,1,0,1,0,0,Skilled Nursing Facility,0.278,0
+PAT-1628,55,Female,Surgery,5,0,1,7,0,0,0,0,0,Home,0.112,0
+PAT-1629,81,Female,General Ward,2,2,0,16,0,1,0,1,0,Skilled Nursing Facility,0.349,0
+PAT-1630,55,Male,Emergency,1,2,0,1,0,1,1,0,0,Home,0.264,0
+PAT-1631,67,Female,Surgery,7,0,0,13,0,1,1,0,0,Home,0.156,0
+PAT-1632,47,Female,ICU,7,3,0,1,1,0,0,0,1,Home,0.44,1
+PAT-1633,68,Female,Surgery,3,0,2,11,0,0,1,0,0,Home,0.166,0
+PAT-1634,80,Male,Emergency,1,2,0,6,0,0,0,0,0,Home Health Care,0.148,0
+PAT-1635,69,Male,ICU,3,0,0,20,0,0,0,0,0,Home Health Care,0.071,0
+PAT-1636,55,Female,General Ward,6,2,0,3,0,1,0,0,1,Home Health Care,0.299,0
+PAT-1637,47,Male,General Ward,3,2,1,12,1,0,0,0,1,Home,0.217,0
+PAT-1638,68,Male,Cardiology,2,3,0,5,0,0,0,0,0,Home,0.166,0
+PAT-1639,22,Female,ICU,9,0,1,9,1,0,0,1,0,Home Health Care,0.183,0
+PAT-1640,46,Male,Emergency,2,0,0,12,1,1,1,0,1,Home,0.244,0
+PAT-1641,21,Female,Emergency,1,3,0,10,0,1,0,0,1,Home Health Care,0.158,0
+PAT-1642,27,Female,Emergency,2,2,1,19,0,1,0,0,0,Home Health Care,0.101,0
+PAT-1643,73,Female,General Ward,1,2,0,5,1,1,0,0,1,Home,0.312,0
+PAT-1644,34,Male,ICU,1,2,0,5,0,0,0,0,1,Home Health Care,0.092,0
+PAT-1645,34,Female,Emergency,1,1,1,9,0,0,0,0,0,Home Health Care,0.058,0
+PAT-1646,86,Male,General Ward,3,3,1,20,0,0,0,0,0,Home Health Care,0.354,0
+PAT-1647,51,Male,General Ward,1,2,0,17,0,1,0,0,0,Home,0.101,0
+PAT-1648,23,Female,General Ward,1,3,0,10,1,1,0,0,0,Home,0.117,0
+PAT-1649,70,Male,ICU,3,1,1,21,0,0,0,0,0,Home,0.099,0
+PAT-1650,83,Male,Surgery,1,1,0,1,0,1,0,1,0,Home,0.33,0
+PAT-1651,60,Female,General Ward,1,0,1,16,1,1,1,0,0,Home,0.254,0
+PAT-1652,40,Male,General Ward,4,0,1,15,1,1,0,0,0,Home Health Care,0.155,0
+PAT-1653,72,Male,General Ward,1,0,1,17,0,1,0,0,0,Home Health Care,0.13,0
+PAT-1654,33,Female,Emergency,1,1,2,20,1,1,0,0,0,Home,0.085,0
+PAT-1655,25,Female,Emergency,1,3,0,13,0,0,0,0,0,Home,0.054,0
+PAT-1656,21,Female,ICU,13,1,0,1,1,1,0,1,0,Skilled Nursing Facility,0.268,0
+PAT-1657,21,Male,Surgery,6,1,2,8,0,1,1,0,0,Home,0.218,0
+PAT-1658,73,Male,Emergency,1,0,0,5,0,0,1,0,0,Home Health Care,0.057,0
+PAT-1659,42,Male,Surgery,2,1,1,6,1,1,0,0,1,Skilled Nursing Facility,0.282,0
+PAT-1660,84,Male,Surgery,6,2,2,20,0,1,0,0,0,Home Health Care,0.489,1
+PAT-1661,84,Female,General Ward,5,1,0,14,1,0,0,0,1,Skilled Nursing Facility,0.329,0
+PAT-1662,44,Male,General Ward,4,1,2,11,0,1,0,0,0,Home Health Care,0.158,0
+PAT-1663,49,Male,General Ward,2,2,0,6,1,0,0,0,0,Home,0.097,0
+PAT-1664,67,Female,General Ward,1,4,1,11,1,1,0,1,0,Home,0.558,1
+PAT-1665,78,Female,Cardiology,8,1,0,13,0,1,1,0,0,Home,0.266,0
+PAT-1666,68,Female,ICU,6,0,0,12,1,0,0,0,1,Home,0.17,0
+PAT-1667,36,Male,General Ward,3,2,0,2,0,0,1,0,1,Home Health Care,0.21,0
+PAT-1668,38,Male,Surgery,4,0,2,21,1,1,1,0,1,Home,0.28,0
+PAT-1669,22,Male,Emergency,1,1,0,3,0,0,1,0,0,Home Health Care,0.037,0
+PAT-1670,59,Male,General Ward,3,0,1,4,1,0,0,0,0,Home,0.22,0
+PAT-1671,78,Female,ICU,8,0,0,17,0,0,0,0,0,Home,0.18,0
+PAT-1672,39,Female,ICU,6,1,1,6,0,0,1,0,0,Skilled Nursing Facility,0.117,0
+PAT-1673,38,Female,Surgery,6,0,1,7,0,0,0,0,0,Home,0.043,0
+PAT-1674,87,Female,General Ward,1,1,1,15,0,1,1,0,1,Home Health Care,0.505,1
+PAT-1675,18,Male,General Ward,2,5,1,11,1,1,0,0,1,Home Health Care,0.408,0
+PAT-1676,22,Female,Emergency,1,2,3,3,0,1,0,1,0,Home,0.176,0
+PAT-1677,29,Male,General Ward,1,0,1,6,0,1,0,0,0,Home,0.075,0
+PAT-1678,63,Female,Emergency,1,2,1,2,0,0,0,0,0,Home,0.199,0
+PAT-1679,51,Female,ICU,10,2,2,14,0,0,0,0,1,Home Health Care,0.43,1
+PAT-1680,66,Male,ICU,6,3,0,9,0,0,0,0,0,Home Health Care,0.33,0
+PAT-1681,62,Male,Cardiology,5,3,2,18,1,1,0,0,1,Home,0.653,1
+PAT-1682,44,Female,Emergency,1,2,2,19,1,1,0,0,0,Home Health Care,0.295,0
+PAT-1683,43,Male,General Ward,2,0,4,12,0,1,0,1,0,Home,0.487,1
+PAT-1684,64,Male,Emergency,1,2,0,13,0,1,0,1,0,Home Health Care,0.341,0
+PAT-1685,73,Male,Surgery,1,0,0,12,0,1,0,0,0,Skilled Nursing Facility,0.094,0
+PAT-1686,80,Female,Emergency,1,0,0,12,0,0,0,0,1,Skilled Nursing Facility,0.215,0
+PAT-1687,65,Female,General Ward,2,1,0,18,0,0,0,0,0,Home Health Care,0.067,0
+PAT-1688,78,Female,Cardiology,7,1,0,9,1,0,1,0,1,Home,0.488,1
+PAT-1689,43,Male,ICU,10,2,0,17,0,0,1,0,0,Skilled Nursing Facility,0.303,0
+PAT-1690,53,Female,General Ward,4,4,0,21,1,1,1,0,1,Home,0.443,1
+PAT-1691,18,Male,General Ward,1,0,0,16,0,0,0,0,0,Home Health Care,0.018,0
+PAT-1692,25,Female,General Ward,1,1,1,17,0,1,1,0,0,Home,0.117,0
+PAT-1693,69,Female,Surgery,7,1,1,21,0,1,1,0,1,Skilled Nursing Facility,0.488,1
+PAT-1694,64,Male,General Ward,3,2,0,8,0,0,1,0,1,Home Health Care,0.316,0
+PAT-1695,73,Male,General Ward,1,1,2,11,0,0,0,0,1,Home Health Care,0.354,0
+PAT-1696,31,Male,Surgery,6,0,0,2,1,0,1,0,0,Home,0.088,0
+PAT-1697,45,Male,General Ward,1,3,0,8,0,0,0,0,1,Home Health Care,0.163,0
+PAT-1698,19,Male,General Ward,5,2,0,12,1,1,1,0,1,Home Health Care,0.349,0
+PAT-1699,43,Female,General Ward,2,3,0,21,0,0,0,0,0,Home Health Care,0.116,0
+PAT-1700,31,Female,General Ward,1,2,2,1,0,1,0,0,1,Home,0.224,0
+PAT-1701,76,Male,General Ward,1,2,0,13,0,1,0,0,0,Home,0.132,0
+PAT-1702,73,Male,Emergency,1,0,0,21,0,1,0,0,1,Home,0.181,0
+PAT-1703,24,Male,General Ward,2,1,0,17,0,1,0,0,0,Home,0.049,0
+PAT-1704,20,Female,General Ward,3,3,0,14,0,0,1,0,1,Home,0.243,0
+PAT-1705,40,Male,Surgery,3,3,0,14,0,0,0,0,0,Home,0.097,0
+PAT-1706,35,Female,Emergency,1,1,1,16,0,0,0,1,0,Home,0.057,0
+PAT-1707,55,Female,ICU,8,3,1,17,0,0,0,0,0,Home,0.154,0
+PAT-1708,32,Female,Emergency,1,2,2,6,0,1,0,1,0,Home,0.309,0
+PAT-1709,81,Female,General Ward,1,1,0,7,0,1,0,0,0,Skilled Nursing Facility,0.168,0
+PAT-1710,45,Male,ICU,10,0,3,1,1,0,0,0,0,Home,0.31,0
+PAT-1711,56,Female,Emergency,1,0,1,15,0,0,0,0,1,Home,0.114,0
+PAT-1712,74,Male,ICU,8,0,2,20,1,0,0,0,1,Home,0.421,1
+PAT-1713,34,Male,Cardiology,8,1,0,21,0,1,0,0,1,Home Health Care,0.11,0
+PAT-1714,61,Female,General Ward,1,0,0,18,0,1,0,0,1,Skilled Nursing Facility,0.112,0
+PAT-1715,42,Female,Surgery,3,3,1,13,0,1,0,0,0,Home,0.181,0
+PAT-1716,34,Female,General Ward,1,1,0,2,1,1,1,0,0,Home,0.111,0
+PAT-1717,30,Male,Surgery,11,1,0,19,0,0,0,0,0,Skilled Nursing Facility,0.069,0
+PAT-1718,42,Male,Emergency,1,1,1,15,1,0,0,0,0,Home,0.093,0
+PAT-1719,85,Female,Surgery,4,2,1,12,0,0,0,1,1,Home,0.521,1
+PAT-1720,27,Male,General Ward,4,0,2,15,0,0,0,0,0,Home,0.083,0
+PAT-1721,84,Female,Emergency,2,3,0,18,0,1,0,0,1,Home,0.389,0
+PAT-1722,35,Female,Emergency,2,2,1,14,0,1,0,0,0,Skilled Nursing Facility,0.212,0
+PAT-1723,51,Female,Emergency,1,3,0,6,0,1,0,0,1,Home,0.341,0
+PAT-1724,25,Male,Emergency,1,1,3,12,0,0,0,0,0,Skilled Nursing Facility,0.178,0
+PAT-1725,57,Male,Emergency,1,1,0,20,0,0,0,1,0,Skilled Nursing Facility,0.204,0
+PAT-1726,59,Male,ICU,4,0,0,6,1,0,0,0,1,Home,0.183,0
+PAT-1727,58,Female,General Ward,4,1,3,9,0,0,1,1,0,Home,0.598,1
+PAT-1728,23,Male,ICU,7,2,1,4,1,1,0,0,1,Home,0.281,0
+PAT-1729,69,Female,General Ward,2,2,0,17,0,0,0,0,0,Home,0.178,0
+PAT-1730,43,Male,Cardiology,4,3,1,2,0,1,1,0,0,Home,0.359,0
+PAT-1731,81,Female,Emergency,2,1,1,16,1,1,1,0,1,Home Health Care,0.533,1
+PAT-1732,76,Male,Cardiology,8,1,3,14,1,0,0,1,0,Home,0.713,1
+PAT-1733,73,Male,General Ward,6,0,0,8,1,1,0,0,1,Skilled Nursing Facility,0.334,0
+PAT-1734,76,Male,Surgery,6,3,0,14,0,0,0,0,0,Home,0.224,0
+PAT-1735,87,Female,Surgery,5,0,1,2,0,1,0,0,0,Home Health Care,0.18,0
+PAT-1736,50,Female,Emergency,1,1,1,16,0,1,0,0,0,Skilled Nursing Facility,0.157,0
+PAT-1737,70,Female,Emergency,1,2,0,4,0,1,0,0,0,Home,0.222,0
+PAT-1738,39,Male,General Ward,1,1,0,1,0,0,0,0,0,Home,0.062,0
+PAT-1739,38,Male,Surgery,6,0,1,20,1,0,0,0,0,Home,0.099,0
+PAT-1740,87,Female,Emergency,1,1,1,14,1,0,0,0,0,Home,0.313,0
+PAT-1741,87,Male,General Ward,3,4,0,8,0,0,0,0,0,Home,0.446,1
+PAT-1742,21,Male,General Ward,5,0,2,3,0,1,0,0,1,Home,0.106,0
+PAT-1743,79,Female,Cardiology,4,1,1,5,1,1,0,0,0,Home,0.228,0
+PAT-1744,79,Female,Surgery,11,2,2,6,0,0,0,1,0,Skilled Nursing Facility,0.759,1
+PAT-1745,41,Female,Cardiology,3,2,1,8,0,0,0,0,0,Home,0.084,0
+PAT-1746,72,Female,Emergency,1,1,1,6,0,0,1,0,0,Home,0.179,0
+PAT-1747,26,Male,General Ward,3,0,1,6,0,0,0,1,0,Home,0.037,0
+PAT-1748,20,Male,General Ward,5,1,0,4,1,0,0,0,0,Home,0.065,0
+PAT-1749,48,Female,General Ward,1,0,2,7,0,0,1,0,1,Home,0.125,0
+PAT-1750,57,Female,General Ward,7,2,1,19,0,1,0,0,1,Skilled Nursing Facility,0.326,0
+PAT-1751,53,Male,ICU,7,1,0,7,0,0,1,0,0,Home,0.199,0
+PAT-1752,41,Male,General Ward,4,1,0,3,1,0,0,0,0,Home,0.106,0
+PAT-1753,23,Male,ICU,13,2,2,8,1,1,0,0,1,Home,0.369,0
+PAT-1754,83,Female,Cardiology,4,1,1,1,0,0,0,0,0,Home,0.186,0
+PAT-1755,21,Female,ICU,11,1,0,1,0,1,0,0,1,Home,0.085,0
+PAT-1756,23,Female,Surgery,2,1,0,14,0,1,0,0,1,Home Health Care,0.055,0
+PAT-1757,68,Male,Emergency,2,0,2,6,0,1,1,0,0,Home,0.301,0
+PAT-1758,79,Female,General Ward,1,2,2,10,0,0,0,0,0,Home,0.245,0
+PAT-1759,74,Female,ICU,8,2,2,14,0,0,0,0,1,Home Health Care,0.476,1
+PAT-1760,83,Male,General Ward,3,1,0,4,0,1,1,0,1,Home,0.257,0
+PAT-1761,25,Male,General Ward,4,2,2,6,0,1,0,0,0,Home,0.202,0
+PAT-1762,43,Male,Emergency,2,0,1,16,0,0,0,0,1,Skilled Nursing Facility,0.139,0
+PAT-1763,68,Male,General Ward,2,2,1,21,1,0,0,1,0,Home,0.479,1
+PAT-1764,62,Female,General Ward,5,2,1,1,0,0,1,1,0,Home Health Care,0.566,1
+PAT-1765,61,Male,ICU,15,2,0,6,0,0,0,0,1,Home,0.249,0
+PAT-1766,22,Female,Cardiology,6,0,0,9,1,1,0,0,1,Home,0.076,0
+PAT-1767,87,Male,Surgery,3,2,0,15,0,0,1,0,0,Home,0.17,0
+PAT-1768,43,Male,Emergency,1,1,0,12,0,0,0,1,1,Home,0.373,0
+PAT-1769,85,Male,General Ward,6,1,1,3,0,1,0,0,0,Home,0.262,0
+PAT-1770,36,Male,Surgery,4,1,1,11,0,0,0,0,0,Home,0.101,0
+PAT-1771,37,Female,Surgery,1,2,1,15,1,1,0,0,0,Skilled Nursing Facility,0.146,0
+PAT-1772,29,Female,Emergency,1,0,2,3,0,1,0,0,0,Home Health Care,0.102,0
+PAT-1773,64,Female,Cardiology,2,0,0,14,1,0,1,0,0,Home,0.277,0
+PAT-1774,18,Female,General Ward,4,2,0,2,0,1,0,0,0,Home,0.056,0
+PAT-1775,31,Male,Cardiology,9,1,0,4,0,1,0,0,1,Skilled Nursing Facility,0.106,0
+PAT-1776,81,Male,Cardiology,7,1,1,19,0,0,0,0,1,Home Health Care,0.293,0
+PAT-1777,55,Male,General Ward,3,0,1,12,0,0,0,0,0,Home,0.032,0
+PAT-1778,54,Female,ICU,3,0,2,2,0,0,0,0,0,Skilled Nursing Facility,0.166,0
+PAT-1779,28,Male,Cardiology,3,2,0,17,0,1,1,0,0,Home,0.158,0
+PAT-1780,20,Male,General Ward,1,0,2,3,0,1,0,0,1,Home,0.09,0
+PAT-1781,50,Female,Emergency,1,0,0,10,0,0,0,0,0,Home,0.037,0
+PAT-1782,23,Male,Cardiology,2,0,2,16,1,1,0,0,0,Skilled Nursing Facility,0.159,0
+PAT-1783,67,Male,Emergency,1,1,2,9,0,0,0,0,0,Skilled Nursing Facility,0.272,0
+PAT-1784,27,Male,General Ward,2,1,2,11,1,1,0,0,0,Skilled Nursing Facility,0.11,0
+PAT-1785,22,Female,Emergency,1,0,1,21,0,1,1,0,0,Home,0.075,0
+PAT-1786,40,Female,General Ward,3,0,1,15,0,0,0,0,1,Skilled Nursing Facility,0.254,0
+PAT-1787,27,Female,Emergency,1,0,1,3,1,1,1,0,1,Home,0.118,0
+PAT-1788,61,Male,General Ward,5,1,1,16,0,1,0,0,0,Home,0.16,0
+PAT-1789,19,Female,Emergency,1,1,2,21,0,1,0,0,0,Home,0.155,0
+PAT-1790,30,Female,Emergency,1,3,1,21,0,0,0,0,0,Home,0.147,0
+PAT-1791,57,Male,Emergency,1,2,3,21,0,1,0,0,1,Home Health Care,0.382,0
+PAT-1792,19,Female,Emergency,1,2,1,12,0,1,1,0,0,Home,0.137,0
+PAT-1793,82,Male,Emergency,1,0,2,5,1,0,0,0,0,Skilled Nursing Facility,0.321,0
+PAT-1794,80,Female,Emergency,1,0,1,7,0,0,0,0,0,Home,0.091,0
+PAT-1795,34,Female,General Ward,1,1,0,9,1,0,1,0,0,Home,0.102,0
+PAT-1796,26,Male,Emergency,1,2,0,21,0,1,0,0,0,Skilled Nursing Facility,0.075,0
+PAT-1797,32,Female,General Ward,4,2,0,18,0,1,1,0,0,Home,0.141,0
+PAT-1798,41,Female,Cardiology,3,4,2,21,0,0,0,1,0,Home Health Care,0.338,0
+PAT-1799,55,Female,General Ward,1,2,1,8,1,1,0,1,0,Home Health Care,0.272,0
+PAT-1800,52,Male,ICU,7,2,1,12,1,0,1,0,0,Home,0.385,0
+PAT-1801,66,Male,Emergency,1,2,1,20,0,1,0,0,0,Home Health Care,0.34,0
+PAT-1802,86,Male,ICU,6,1,0,2,0,0,1,0,0,Home,0.306,0
+PAT-1803,79,Female,General Ward,1,0,0,10,0,0,0,0,0,Skilled Nursing Facility,0.099,0
+PAT-1804,77,Male,Emergency,1,2,0,19,0,0,1,0,0,Home,0.295,0
+PAT-1805,67,Female,Emergency,1,2,0,9,0,0,0,0,1,Home,0.17,0
+PAT-1806,26,Female,Emergency,1,2,2,8,1,1,0,1,0,Home,0.487,1
+PAT-1807,51,Male,ICU,6,2,1,1,0,1,1,0,0,Home,0.337,0
+PAT-1808,52,Female,Emergency,1,0,2,6,1,0,0,0,0,Home Health Care,0.172,0
+PAT-1809,18,Male,ICU,2,2,0,12,0,0,0,0,0,Skilled Nursing Facility,0.05,0
+PAT-1810,57,Female,Emergency,1,2,1,19,0,0,1,0,0,Home Health Care,0.255,0
+PAT-1811,81,Female,Emergency,1,0,0,17,0,1,0,1,1,Home,0.318,0
+PAT-1812,39,Male,Emergency,1,1,1,2,0,1,1,0,0,Skilled Nursing Facility,0.19,0
+PAT-1813,77,Male,General Ward,1,0,0,11,1,0,0,0,0,Home,0.097,0
+PAT-1814,81,Male,General Ward,5,1,0,18,0,1,0,0,1,Home,0.218,0
+PAT-1815,89,Female,General Ward,1,1,0,11,0,0,0,0,1,Home,0.229,0
+PAT-1816,28,Female,General Ward,3,2,4,18,0,1,0,0,1,Home,0.438,1
+PAT-1817,31,Female,ICU,12,2,2,8,0,1,0,0,1,Home Health Care,0.348,0
+PAT-1818,77,Male,Emergency,1,1,1,15,0,1,0,0,1,Home,0.308,0
+PAT-1819,47,Male,General Ward,1,0,1,9,1,1,0,0,0,Home,0.11,0
+PAT-1820,52,Male,Cardiology,3,1,2,15,0,1,0,0,0,Home Health Care,0.181,0
+PAT-1821,54,Female,General Ward,2,0,1,7,1,1,0,0,0,Skilled Nursing Facility,0.171,0
+PAT-1822,22,Female,Surgery,6,1,2,20,0,1,1,1,1,Skilled Nursing Facility,0.502,1
+PAT-1823,43,Male,Emergency,1,0,0,13,0,0,0,0,1,Home,0.149,0
+PAT-1824,79,Male,ICU,3,0,0,13,1,0,0,0,0,Home Health Care,0.175,0
+PAT-1825,21,Female,General Ward,1,2,1,1,0,0,1,1,0,Home,0.228,0
+PAT-1826,59,Female,Emergency,2,4,1,20,1,1,0,1,1,Home,0.741,1
+PAT-1827,35,Female,ICU,14,1,2,4,0,0,1,0,1,Skilled Nursing Facility,0.455,1
+PAT-1828,57,Female,Cardiology,7,0,2,4,0,0,0,0,0,Skilled Nursing Facility,0.267,0
+PAT-1829,89,Male,Emergency,1,0,0,4,1,0,0,0,1,Skilled Nursing Facility,0.271,0
+PAT-1830,56,Male,Cardiology,8,2,1,13,1,0,0,0,0,Home,0.337,0
+PAT-1831,31,Female,General Ward,4,0,0,2,0,1,0,0,0,Skilled Nursing Facility,0.049,0
+PAT-1832,49,Female,Emergency,1,2,0,15,0,1,0,0,0,Skilled Nursing Facility,0.099,0
+PAT-1833,68,Male,Emergency,1,5,1,4,0,1,1,0,0,Home,0.622,1
+PAT-1834,55,Female,Emergency,2,0,1,6,1,1,0,0,0,Home,0.094,0
+PAT-1835,40,Female,General Ward,1,1,0,3,0,1,0,1,1,Home Health Care,0.208,0
+PAT-1836,80,Female,Emergency,1,1,1,7,1,0,0,0,1,Home,0.235,0
+PAT-1837,32,Female,ICU,6,2,1,6,0,0,0,0,1,Skilled Nursing Facility,0.21,0
+PAT-1838,42,Male,Emergency,1,2,0,3,0,1,0,0,0,Home,0.051,0
+PAT-1839,34,Female,General Ward,1,0,0,4,0,0,1,1,0,Home Health Care,0.246,0
+PAT-1840,83,Female,Surgery,2,1,0,10,0,0,0,0,0,Home Health Care,0.07,0
+PAT-1841,70,Female,General Ward,1,2,0,21,1,1,0,0,0,Home,0.232,0
+PAT-1842,68,Female,Surgery,10,2,2,9,0,0,0,1,0,Skilled Nursing Facility,0.681,1
+PAT-1843,56,Female,Surgery,6,1,1,6,1,0,1,0,0,Home,0.369,0
+PAT-1844,68,Male,Surgery,8,1,1,20,0,0,1,0,0,Home,0.341,0
+PAT-1845,87,Female,Emergency,1,2,0,11,1,0,0,1,1,Home,0.5,1
+PAT-1846,23,Female,ICU,8,2,0,7,1,0,1,1,0,Home,0.429,1
+PAT-1847,84,Female,Cardiology,6,3,0,18,0,0,1,0,1,Home Health Care,0.614,1
+PAT-1848,24,Female,General Ward,2,1,0,4,0,1,1,0,0,Skilled Nursing Facility,0.113,0
+PAT-1849,68,Female,Emergency,1,2,1,5,0,1,0,0,1,Home,0.331,0
+PAT-1850,89,Male,Emergency,1,0,1,4,1,0,0,0,0,Home,0.191,0
+PAT-1851,59,Female,Emergency,2,1,0,4,1,1,0,0,0,Home,0.105,0
+PAT-1852,81,Male,General Ward,1,1,2,13,0,0,0,0,0,Home Health Care,0.325,0
+PAT-1853,32,Male,Emergency,1,0,2,16,1,0,0,0,1,Skilled Nursing Facility,0.274,0
+PAT-1854,46,Female,Surgery,11,2,0,14,0,0,0,0,0,Home Health Care,0.083,0
+PAT-1855,50,Female,General Ward,3,1,1,11,0,1,0,0,0,Home Health Care,0.113,0
+PAT-1856,44,Male,Cardiology,6,1,0,2,1,0,1,0,1,Home,0.23,0
+PAT-1857,53,Male,General Ward,4,2,1,14,0,1,0,0,0,Home,0.177,0
+PAT-1858,46,Female,ICU,1,0,1,7,1,1,0,0,0,Home Health Care,0.133,0
+PAT-1859,55,Male,General Ward,1,0,1,11,0,0,0,0,0,Home Health Care,0.096,0
+PAT-1860,74,Male,General Ward,2,2,0,4,0,1,1,0,0,Home Health Care,0.232,0
+PAT-1861,44,Male,Cardiology,3,1,0,7,0,1,1,0,0,Skilled Nursing Facility,0.126,0
+PAT-1862,72,Male,ICU,7,2,2,16,0,0,0,0,0,Home Health Care,0.474,1
+PAT-1863,50,Male,ICU,9,1,0,6,1,0,0,0,0,Home Health Care,0.126,0
+PAT-1864,85,Male,General Ward,5,3,1,6,0,1,0,0,0,Skilled Nursing Facility,0.382,0
+PAT-1865,83,Male,Emergency,1,0,0,2,0,1,0,0,1,Skilled Nursing Facility,0.203,0
+PAT-1866,27,Female,Emergency,1,2,1,8,0,0,0,0,0,Home,0.06,0
+PAT-1867,22,Female,ICU,6,3,0,7,0,0,1,0,0,Home,0.245,0
+PAT-1868,55,Female,General Ward,1,1,1,14,1,0,1,1,0,Home,0.461,1
+PAT-1869,30,Male,Surgery,1,0,2,9,0,0,0,0,0,Home Health Care,0.084,0
+PAT-1870,48,Male,ICU,3,2,0,15,0,0,0,0,0,Home,0.133,0
+PAT-1871,64,Female,ICU,14,0,0,18,1,1,0,0,0,Home,0.305,0
+PAT-1872,69,Male,General Ward,3,0,1,12,0,1,0,0,0,Home,0.104,0
+PAT-1873,73,Female,Surgery,4,2,1,19,1,0,0,0,1,Home Health Care,0.388,0
+PAT-1874,32,Female,ICU,9,2,0,13,0,1,0,0,0,Home,0.083,0
+PAT-1875,46,Female,Emergency,1,0,0,7,0,1,1,0,0,Home,0.081,0
+PAT-1876,25,Male,General Ward,5,2,0,10,1,0,0,0,0,Home,0.104,0
+PAT-1877,22,Male,Cardiology,3,3,0,10,0,0,0,0,0,Home Health Care,0.066,0
+PAT-1878,46,Female,General Ward,3,1,1,2,0,0,1,0,1,Home,0.315,0
+PAT-1879,64,Male,Surgery,2,3,0,14,0,1,0,0,0,Home,0.135,0
+PAT-1880,85,Female,ICU,7,0,1,13,0,0,0,0,0,Home Health Care,0.236,0
+PAT-1881,62,Female,General Ward,3,0,1,6,0,1,0,0,0,Home,0.072,0
+PAT-1882,19,Female,Surgery,5,1,0,9,1,0,0,0,0,Home,0.053,0
+PAT-1883,44,Male,General Ward,3,1,0,13,0,0,0,0,0,Home Health Care,0.072,0
+PAT-1884,53,Female,Surgery,7,1,0,9,0,0,0,1,0,Home,0.141,0
+PAT-1885,53,Female,Cardiology,4,2,1,13,1,0,0,0,0,Home Health Care,0.24,0
+PAT-1886,43,Male,Surgery,5,0,0,5,0,1,0,0,0,Home,0.039,0
+PAT-1887,60,Male,General Ward,1,0,0,14,0,1,0,0,0,Home,0.037,0
+PAT-1888,44,Female,Surgery,13,1,0,5,1,0,1,0,0,Home Health Care,0.254,0
+PAT-1889,86,Male,ICU,4,3,0,9,1,1,0,0,0,Home Health Care,0.645,1
+PAT-1890,37,Male,Surgery,2,1,0,8,0,1,1,0,0,Home,0.071,0
+PAT-1891,28,Male,Emergency,1,2,1,7,0,0,0,1,1,Home,0.287,0
+PAT-1892,55,Female,Surgery,3,1,0,8,0,1,0,0,0,Home Health Care,0.095,0
+PAT-1893,23,Female,ICU,11,1,2,3,0,0,0,0,1,Home Health Care,0.118,0
+PAT-1894,89,Female,Emergency,1,2,2,15,0,1,0,0,0,Home,0.304,0
+PAT-1895,40,Male,General Ward,2,2,1,8,1,0,0,0,1,Home Health Care,0.215,0
+PAT-1896,64,Male,Surgery,2,3,0,1,1,1,0,0,0,Home,0.248,0
+PAT-1897,63,Female,ICU,4,0,1,7,1,0,0,0,0,Home,0.104,0
+PAT-1898,29,Female,Emergency,1,3,0,19,0,1,1,0,1,Home,0.13,0
+PAT-1899,30,Male,Surgery,4,0,0,2,1,1,1,0,1,Home,0.12,0
+PAT-1900,79,Female,Emergency,1,1,2,14,0,0,0,0,0,Home,0.232,0
+PAT-1901,77,Female,General Ward,2,0,1,18,0,0,0,0,0,Home,0.116,0
+PAT-1902,60,Female,Emergency,1,2,0,15,0,0,0,0,0,Home,0.083,0
+PAT-1903,85,Female,ICU,11,1,2,14,0,1,1,0,1,Home,0.742,1
+PAT-1904,22,Female,ICU,11,2,0,19,1,0,1,1,0,Home,0.429,1
+PAT-1905,54,Male,General Ward,1,1,3,19,0,1,1,0,0,Home,0.391,0
+PAT-1906,89,Female,General Ward,1,2,3,17,0,0,0,1,1,Home Health Care,0.706,1
+PAT-1907,48,Female,General Ward,3,1,3,19,1,0,0,0,1,Home,0.443,1
+PAT-1908,26,Male,Emergency,2,2,1,16,0,0,0,0,0,Home Health Care,0.048,0
+PAT-1909,68,Female,General Ward,5,2,3,20,1,0,0,0,0,Home,0.44,1
+PAT-1910,46,Female,ICU,2,1,1,19,0,1,1,1,1,Home,0.443,1
+PAT-1911,57,Female,Cardiology,9,1,1,1,0,1,0,0,0,Home,0.117,0
+PAT-1912,58,Female,General Ward,2,1,0,19,1,0,1,0,1,Skilled Nursing Facility,0.306,0
+PAT-1913,28,Female,Emergency,1,1,1,7,0,0,0,0,0,Home,0.022,0
+PAT-1914,40,Female,Surgery,6,1,0,11,0,0,1,1,0,Home,0.324,0
+PAT-1915,18,Male,Cardiology,4,0,1,5,0,1,0,1,0,Home Health Care,0.059,0
+PAT-1916,63,Female,Emergency,2,0,0,17,0,0,0,1,0,Skilled Nursing Facility,0.252,0
+PAT-1917,38,Male,Emergency,2,2,0,11,0,1,0,1,1,Skilled Nursing Facility,0.303,0
+PAT-1918,53,Male,Surgery,9,0,0,8,0,1,0,0,0,Home,0.104,0
+PAT-1919,71,Male,ICU,1,1,1,10,0,0,0,0,1,Home,0.203,0
+PAT-1920,74,Female,Surgery,4,1,1,12,1,1,0,0,0,Home Health Care,0.306,0
+PAT-1921,18,Male,General Ward,1,1,0,10,0,0,0,0,0,Home,0.034,0
+PAT-1922,80,Female,Cardiology,3,2,0,13,0,0,0,0,0,Home Health Care,0.208,0
+PAT-1923,71,Female,ICU,1,0,1,18,0,0,0,1,0,Skilled Nursing Facility,0.34,0
+PAT-1924,72,Female,Emergency,1,2,2,10,1,0,0,0,0,Home Health Care,0.311,0
+PAT-1925,57,Male,General Ward,3,0,2,19,1,0,1,0,1,Home,0.328,0
+PAT-1926,32,Female,Emergency,1,1,0,20,0,0,1,1,1,Home,0.11,0
+PAT-1927,38,Female,General Ward,1,1,1,17,1,0,0,0,0,Home Health Care,0.115,0
+PAT-1928,64,Female,Surgery,5,3,2,20,0,0,0,0,0,Home,0.421,1
+PAT-1929,70,Male,Surgery,1,1,2,16,0,1,0,0,0,Home,0.365,0
+PAT-1930,26,Male,General Ward,1,1,1,5,0,1,0,0,1,Home,0.111,0
+PAT-1931,69,Male,Surgery,1,0,0,3,0,0,0,0,1,Home,0.077,0
+PAT-1932,74,Male,Surgery,4,1,2,15,0,0,0,0,1,Home,0.193,0
+PAT-1933,43,Male,Emergency,1,3,0,2,0,0,0,0,0,Home Health Care,0.135,0
+PAT-1934,58,Female,ICU,6,2,1,13,1,1,0,1,0,Home,0.339,0
+PAT-1935,52,Male,General Ward,4,1,1,8,1,1,0,0,0,Home,0.17,0
+PAT-1936,80,Male,General Ward,4,2,0,17,0,0,0,0,0,Home,0.163,0
+PAT-1937,42,Male,General Ward,5,1,2,4,1,0,0,1,1,Home,0.407,0
+PAT-1938,55,Male,Cardiology,6,1,0,19,0,0,0,0,0,Skilled Nursing Facility,0.113,0
+PAT-1939,19,Male,General Ward,3,0,0,9,0,0,0,0,1,Skilled Nursing Facility,0.051,0
+PAT-1940,24,Male,Surgery,5,1,2,15,0,1,0,0,1,Home,0.068,0
+PAT-1941,51,Male,General Ward,1,1,0,9,0,1,0,0,1,Home Health Care,0.122,0
+PAT-1942,34,Female,Emergency,1,1,0,21,0,0,1,0,1,Home,0.048,0
+PAT-1943,60,Female,Surgery,3,2,1,9,1,0,0,0,0,Skilled Nursing Facility,0.353,0
+PAT-1944,76,Male,Surgery,3,0,1,14,0,0,0,0,1,Home,0.152,0
+PAT-1945,68,Male,General Ward,2,1,1,21,0,0,0,0,0,Home,0.059,0
+PAT-1946,71,Female,ICU,7,1,1,16,0,1,0,0,0,Home,0.198,0
+PAT-1947,41,Male,ICU,4,3,1,17,0,0,0,0,1,Home Health Care,0.214,0
+PAT-1948,42,Male,General Ward,2,0,0,13,1,0,0,0,0,Home,0.085,0
+PAT-1949,88,Female,General Ward,1,1,1,9,0,0,1,1,1,Home Health Care,0.606,1
+PAT-1950,69,Male,ICU,1,0,0,15,1,1,0,0,0,Home,0.17,0
+PAT-1951,87,Female,ICU,2,0,0,7,1,1,1,0,1,Skilled Nursing Facility,0.668,1
+PAT-1952,50,Female,Emergency,1,2,2,1,0,0,0,0,0,Home,0.156,0
+PAT-1953,66,Male,ICU,12,0,1,1,0,0,1,0,0,Skilled Nursing Facility,0.414,0
+PAT-1954,46,Male,ICU,1,3,2,5,1,0,0,0,0,Home,0.383,0
+PAT-1955,80,Female,ICU,4,0,1,9,1,1,1,0,1,Home,0.422,1
+PAT-1956,39,Male,Emergency,1,1,1,12,0,0,0,0,0,Skilled Nursing Facility,0.15,0
+PAT-1957,43,Male,Surgery,7,2,1,6,1,0,0,0,1,Skilled Nursing Facility,0.233,0
+PAT-1958,45,Female,Emergency,1,4,0,13,1,0,0,0,0,Home Health Care,0.258,0
+PAT-1959,66,Female,Surgery,2,1,0,8,0,1,1,0,0,Home,0.113,0
+PAT-1960,88,Male,General Ward,5,3,2,15,0,0,1,0,0,Home,0.666,1
+PAT-1961,66,Female,Emergency,1,0,0,6,1,0,0,0,0,Home,0.174,0
+PAT-1962,37,Male,General Ward,4,0,3,6,0,1,1,0,1,Home,0.308,0
+PAT-1963,80,Female,ICU,6,1,0,4,0,1,0,0,0,Home,0.197,0
+PAT-1964,78,Female,Emergency,2,1,1,11,0,1,0,0,0,Home,0.249,0
+PAT-1965,66,Female,Surgery,1,1,0,21,0,1,0,0,0,Home Health Care,0.097,0
+PAT-1966,88,Female,General Ward,5,1,1,18,0,0,0,0,0,Home Health Care,0.372,0
+PAT-1967,18,Female,Emergency,1,2,1,3,1,0,1,0,0,Home,0.151,0
+PAT-1968,30,Male,Emergency,1,1,0,3,0,1,0,0,1,Home,0.067,0
+PAT-1969,68,Female,General Ward,1,1,1,12,0,0,0,0,0,Home,0.103,0
+PAT-1970,73,Male,General Ward,1,1,0,21,0,1,0,0,0,Home Health Care,0.091,0
+PAT-1971,79,Male,General Ward,3,3,1,21,0,1,0,0,0,Home,0.304,0
+PAT-1972,49,Male,General Ward,4,1,0,6,0,0,0,0,0,Home Health Care,0.057,0
+PAT-1973,47,Female,General Ward,4,1,0,21,0,0,0,1,0,Home,0.098,0
+PAT-1974,46,Female,General Ward,4,4,0,6,0,1,0,1,0,Home,0.276,0
+PAT-1975,66,Male,General Ward,3,1,0,8,0,1,1,0,1,Home Health Care,0.485,1
+PAT-1976,62,Male,Emergency,1,3,0,15,0,1,1,1,0,Home Health Care,0.352,0
+PAT-1977,47,Female,Emergency,1,0,1,18,0,0,0,0,0,Home,0.059,0
+PAT-1978,33,Male,Cardiology,2,1,1,20,1,0,0,0,0,Home,0.11,0
+PAT-1979,57,Male,ICU,12,0,0,16,0,0,0,0,0,Skilled Nursing Facility,0.165,0
+PAT-1980,36,Female,Surgery,4,0,0,6,0,0,0,0,1,Home,0.053,0
+PAT-1981,35,Female,Surgery,4,2,2,21,1,0,0,1,0,Skilled Nursing Facility,0.384,0
+PAT-1982,18,Female,Emergency,1,1,0,17,0,1,0,0,1,Home Health Care,0.068,0
+PAT-1983,64,Male,ICU,12,0,1,9,0,1,0,1,0,Home Health Care,0.367,0
+PAT-1984,83,Male,Surgery,7,1,0,19,0,1,1,0,0,Home,0.293,0
+PAT-1985,55,Female,General Ward,1,2,1,18,0,0,0,0,0,Home,0.072,0
+PAT-1986,68,Female,General Ward,4,2,1,5,1,0,0,0,0,Skilled Nursing Facility,0.302,0
+PAT-1987,80,Female,Emergency,1,1,2,6,1,1,1,0,0,Home,0.411,0
+PAT-1988,21,Female,Emergency,1,2,0,12,0,0,0,0,0,Home,0.031,0
+PAT-1989,18,Male,General Ward,1,1,0,11,0,0,0,0,0,Home Health Care,0.027,0
+PAT-1990,25,Female,Cardiology,5,0,1,16,0,0,0,1,0,Home,0.089,0
+PAT-1991,46,Male,Emergency,1,2,2,20,1,1,1,0,0,Home Health Care,0.577,1
+PAT-1992,72,Male,ICU,11,1,1,17,1,1,0,0,0,Home Health Care,0.351,0
+PAT-1993,20,Female,Cardiology,9,1,0,20,0,0,1,0,1,Skilled Nursing Facility,0.199,0
+PAT-1994,49,Male,ICU,8,1,0,9,0,1,0,1,0,Home Health Care,0.24,0
+PAT-1995,27,Male,Cardiology,6,1,1,1,0,0,0,0,1,Home,0.154,0
+PAT-1996,51,Female,Emergency,1,0,1,3,0,0,0,0,0,Home,0.076,0
+PAT-1997,72,Male,General Ward,5,0,1,21,0,1,0,0,0,Home Health Care,0.109,0
+PAT-1998,49,Female,Surgery,5,0,1,9,0,1,1,0,0,Home,0.086,0
+PAT-1999,67,Male,Emergency,1,1,0,19,0,1,0,0,0,Skilled Nursing Facility,0.168,0
+PAT-2000,24,Female,Surgery,6,4,0,13,1,1,0,0,0,Home Health Care,0.166,0
+PAT-2001,25,Male,Cardiology,1,0,2,14,1,1,0,1,0,Home,0.128,0
+PAT-2002,82,Male,Surgery,7,1,0,20,0,1,1,1,0,Skilled Nursing Facility,0.436,1
+PAT-2003,74,Female,Emergency,1,3,0,19,0,1,0,0,0,Home,0.243,0
+PAT-2004,84,Female,Surgery,4,1,0,7,1,1,1,1,1,Home,0.795,1
+PAT-2005,76,Female,Emergency,1,1,2,4,0,1,0,0,0,Home Health Care,0.229,0
+PAT-2006,89,Male,ICU,6,3,1,12,0,1,0,0,0,Skilled Nursing Facility,0.648,1
+PAT-2007,71,Female,Surgery,6,1,1,14,0,0,0,0,0,Home,0.159,0
+PAT-2008,84,Female,General Ward,5,2,0,2,0,1,0,0,1,Home,0.247,0
+PAT-2009,68,Female,Emergency,1,0,1,1,0,0,0,0,0,Home,0.119,0
+PAT-2010,25,Female,Surgery,5,0,2,18,0,0,0,0,0,Home,0.039,0
+PAT-2011,51,Male,Emergency,1,0,1,20,0,1,0,0,1,Home,0.128,0
+PAT-2012,52,Male,Emergency,1,2,1,8,0,0,1,0,1,Home,0.262,0
+PAT-2013,49,Female,Surgery,1,2,0,3,0,0,0,0,0,Home Health Care,0.107,0
+PAT-2014,63,Male,ICU,6,2,0,6,0,1,0,0,0,Skilled Nursing Facility,0.19,0
+PAT-2015,33,Male,Surgery,1,1,1,13,1,0,0,0,1,Home,0.152,0
+PAT-2016,85,Female,General Ward,1,0,0,9,0,0,0,0,1,Home,0.108,0
+PAT-2017,54,Female,General Ward,1,1,0,9,0,1,0,1,0,Home Health Care,0.13,0
+PAT-2018,71,Female,General Ward,3,2,0,20,0,0,0,0,0,Home Health Care,0.036,0
+PAT-2019,31,Female,Emergency,2,1,2,9,0,0,0,0,0,Skilled Nursing Facility,0.225,0
+PAT-2020,72,Female,Emergency,1,3,0,15,0,0,0,0,0,Home,0.209,0
+PAT-2021,65,Male,Surgery,7,3,1,13,1,0,0,0,1,Home,0.406,0
+PAT-2022,24,Male,ICU,12,1,0,16,0,1,0,1,0,Home,0.104,0
+PAT-2023,24,Male,ICU,3,0,0,2,0,1,0,0,1,Home Health Care,0.052,0
+PAT-2024,50,Male,General Ward,1,1,0,14,0,0,0,0,1,Home,0.118,0
+PAT-2025,40,Female,ICU,11,3,1,6,0,1,0,1,0,Home,0.268,0
+PAT-2026,36,Male,Emergency,1,0,0,2,0,0,0,0,0,Home,0.028,0
+PAT-2027,36,Male,General Ward,1,4,1,8,0,0,0,0,0,Home,0.271,0
+PAT-2028,53,Male,General Ward,1,2,2,4,0,1,0,0,0,Home Health Care,0.151,0
+PAT-2029,46,Male,General Ward,3,1,0,21,0,1,0,0,0,Home,0.078,0
+PAT-2030,77,Male,General Ward,1,0,0,14,0,1,0,0,0,Home Health Care,0.215,0
+PAT-2031,19,Male,ICU,1,1,1,11,0,0,0,0,0,Home,0.062,0
+PAT-2032,18,Male,General Ward,2,1,0,14,0,0,0,0,0,Home,0.029,0
+PAT-2033,64,Male,Emergency,1,0,4,12,0,0,0,0,1,Home,0.378,0
+PAT-2034,86,Male,Surgery,5,0,0,16,0,0,0,0,0,Home,0.099,0
+PAT-2035,37,Female,Emergency,2,0,0,6,0,1,0,0,0,Home,0.069,0
+PAT-2036,28,Male,Cardiology,6,0,1,20,0,0,0,0,1,Home Health Care,0.062,0
+PAT-2037,19,Male,ICU,8,1,1,1,1,1,0,0,0,Home Health Care,0.065,0
+PAT-2038,84,Female,Emergency,2,3,0,12,1,0,0,0,0,Home,0.288,0
+PAT-2039,29,Male,Cardiology,6,0,1,7,0,0,0,0,0,Home,0.032,0
+PAT-2040,37,Female,General Ward,7,5,0,8,0,0,0,0,1,Skilled Nursing Facility,0.335,0
+PAT-2041,22,Female,Cardiology,2,1,1,9,0,0,0,0,0,Home,0.041,0
+PAT-2042,54,Male,General Ward,1,2,0,2,0,1,0,0,0,Home,0.172,0
+PAT-2043,55,Female,ICU,10,3,0,17,0,0,0,0,0,Home,0.26,0
+PAT-2044,26,Male,General Ward,5,2,2,20,0,0,0,0,0,Home Health Care,0.125,0
+PAT-2045,70,Female,Emergency,1,1,0,13,1,1,1,0,0,Home,0.279,0
+PAT-2046,61,Male,Emergency,1,1,0,5,1,1,0,0,0,Home,0.1,0
+PAT-2047,41,Female,Emergency,2,0,2,10,0,0,0,1,1,Home,0.1,0
+PAT-2048,47,Male,ICU,4,0,0,12,0,0,0,0,1,Home,0.089,0
+PAT-2049,76,Female,ICU,9,2,2,17,0,1,1,0,0,Home,0.694,1
+PAT-2050,31,Female,General Ward,5,0,0,21,1,1,1,0,0,Home Health Care,0.107,0
+PAT-2051,26,Male,General Ward,2,2,0,6,1,1,0,1,0,Home Health Care,0.146,0
+PAT-2052,57,Male,Cardiology,4,0,0,3,1,0,1,0,1,Home,0.252,0
+PAT-2053,83,Female,ICU,5,3,1,15,0,1,0,0,0,Home,0.448,1
+PAT-2054,42,Female,Surgery,7,1,1,7,0,0,0,1,0,Home Health Care,0.284,0
+PAT-2055,39,Male,Surgery,8,0,0,6,0,0,0,0,1,Home Health Care,0.111,0
+PAT-2056,21,Female,ICU,8,1,0,4,0,1,0,0,1,Home,0.143,0
+PAT-2057,43,Female,Emergency,2,0,0,19,0,0,0,0,0,Home,0.049,0
+PAT-2058,75,Female,General Ward,3,3,1,5,0,0,0,0,1,Home,0.271,0
+PAT-2059,46,Male,General Ward,5,0,0,3,0,0,0,0,1,Home,0.092,0
+PAT-2060,54,Female,General Ward,2,2,0,9,0,0,0,1,0,Home,0.19,0
+PAT-2061,87,Male,Emergency,3,0,0,6,0,1,1,0,0,Home Health Care,0.272,0
+PAT-2062,35,Female,ICU,14,0,1,13,0,1,0,0,1,Home,0.218,0
+PAT-2063,59,Female,Emergency,1,3,0,20,0,0,0,0,0,Home Health Care,0.155,0
+PAT-2064,58,Male,Emergency,2,1,1,4,0,0,0,0,0,Home Health Care,0.255,0
+PAT-2065,55,Female,ICU,13,2,0,2,0,1,0,0,0,Home Health Care,0.222,0
+PAT-2066,51,Male,Emergency,2,1,1,4,0,1,0,0,1,Home,0.24,0
+PAT-2067,34,Female,Surgery,1,0,1,8,0,0,1,0,1,Home,0.096,0
+PAT-2068,54,Female,General Ward,4,3,1,13,1,1,1,0,0,Skilled Nursing Facility,0.638,1
+PAT-2069,42,Female,General Ward,4,1,2,10,0,1,1,0,1,Home Health Care,0.432,1
+PAT-2070,44,Male,Emergency,1,0,0,18,0,0,0,0,1,Home Health Care,0.066,0
+PAT-2071,74,Female,ICU,8,1,2,9,0,0,0,0,1,Home,0.579,1
+PAT-2072,48,Male,Emergency,1,1,0,1,1,0,0,0,0,Home,0.06,0
+PAT-2073,23,Male,General Ward,5,2,1,13,0,1,0,0,0,Home Health Care,0.082,0
+PAT-2074,57,Female,ICU,10,0,0,18,0,0,0,1,1,Home,0.261,0
+PAT-2075,29,Male,General Ward,3,1,1,15,0,0,0,0,0,Home,0.078,0
+PAT-2076,70,Male,General Ward,5,0,0,2,0,0,1,0,0,Home,0.145,0
+PAT-2077,88,Female,Emergency,1,1,1,11,1,1,0,0,1,Home,0.578,1
+PAT-2078,27,Male,ICU,10,2,1,14,0,0,0,1,0,Home,0.177,0
+PAT-2079,62,Male,Surgery,10,2,0,15,1,1,0,0,1,Home,0.288,0
+PAT-2080,34,Female,Surgery,3,1,0,14,1,1,0,0,0,Home,0.097,0
+PAT-2081,43,Male,Emergency,1,0,1,16,0,0,1,0,0,Home Health Care,0.087,0
+PAT-2082,79,Female,Surgery,5,0,0,15,0,0,0,0,0,Home,0.118,0
+PAT-2083,63,Female,General Ward,3,1,0,19,0,0,0,1,0,Home,0.156,0
+PAT-2084,81,Female,ICU,10,2,0,9,1,1,0,0,0,Skilled Nursing Facility,0.485,1
+PAT-2085,19,Female,Emergency,1,3,0,5,0,0,0,0,1,Home,0.083,0
+PAT-2086,71,Male,ICU,11,0,0,5,1,0,0,0,0,Home,0.188,0
+PAT-2087,82,Male,Emergency,3,1,1,11,0,0,1,0,0,Home Health Care,0.265,0
+PAT-2088,68,Female,General Ward,4,1,2,20,0,0,0,1,0,Skilled Nursing Facility,0.394,0
+PAT-2089,70,Female,Emergency,1,0,0,4,1,1,0,0,0,Home,0.113,0
+PAT-2090,53,Female,Surgery,4,0,2,20,0,1,0,0,0,Home,0.185,0
+PAT-2091,43,Male,Surgery,1,2,1,18,0,1,0,0,0,Home Health Care,0.136,0
+PAT-2092,46,Male,Emergency,1,1,0,3,0,0,0,0,0,Home,0.119,0
+PAT-2093,38,Male,Emergency,1,0,0,4,0,0,0,0,1,Home Health Care,0.053,0
+PAT-2094,28,Female,Emergency,1,1,2,14,0,1,0,0,0,Skilled Nursing Facility,0.107,0
+PAT-2095,57,Male,Emergency,1,1,0,7,0,0,1,0,1,Skilled Nursing Facility,0.473,1
+PAT-2096,28,Female,General Ward,2,1,1,8,0,1,0,0,1,Home,0.126,0
+PAT-2097,53,Female,ICU,2,1,1,16,1,0,1,0,1,Home,0.468,1
+PAT-2098,76,Male,ICU,8,1,0,20,1,0,1,1,0,Skilled Nursing Facility,0.676,1
+PAT-2099,56,Female,Cardiology,3,0,0,15,0,1,0,0,0,Home,0.087,0
+PAT-2100,71,Male,ICU,9,0,1,7,1,1,0,0,0,Home,0.341,0
+PAT-2101,72,Female,Emergency,1,1,0,17,0,1,1,0,1,Home Health Care,0.216,0
+PAT-2102,41,Female,Emergency,1,1,1,12,0,0,1,0,0,Home,0.133,0
+PAT-2103,39,Female,Emergency,1,2,2,18,0,0,0,0,0,Home,0.079,0
+PAT-2104,86,Female,Emergency,1,0,0,14,1,1,0,0,0,Skilled Nursing Facility,0.228,0
+PAT-2105,73,Male,General Ward,1,0,1,15,1,1,1,0,0,Home,0.247,0
+PAT-2106,50,Male,Emergency,1,1,0,15,0,1,0,1,0,Home,0.16,0
+PAT-2107,53,Female,Surgery,1,0,1,5,0,0,1,0,0,Home,0.125,0
+PAT-2108,37,Male,ICU,10,1,0,16,0,1,0,0,0,Home Health Care,0.121,0
+PAT-2109,79,Male,General Ward,2,1,2,5,0,1,0,0,0,Home,0.308,0
+PAT-2110,43,Male,Emergency,1,1,0,2,0,1,0,0,0,Home,0.051,0
+PAT-2111,83,Female,Surgery,3,2,4,20,0,0,0,0,0,Home Health Care,0.493,1
+PAT-2112,57,Male,General Ward,1,0,1,9,1,0,0,0,0,Home Health Care,0.147,0
+PAT-2113,34,Female,Surgery,8,2,2,9,0,1,0,0,1,Home,0.384,0
+PAT-2114,18,Female,Surgery,5,2,2,4,1,1,0,0,0,Home Health Care,0.124,0
+PAT-2115,78,Male,ICU,4,0,1,15,0,1,1,0,1,Home,0.287,0
+PAT-2116,60,Male,Cardiology,10,3,1,11,0,1,0,0,0,Home Health Care,0.271,0
+PAT-2117,59,Male,Surgery,6,4,0,1,1,1,0,0,1,Home,0.597,1
+PAT-2118,42,Female,Surgery,3,1,2,18,1,0,0,1,0,Home,0.386,0
+PAT-2119,56,Male,Emergency,1,2,1,1,0,0,0,0,0,Home Health Care,0.094,0
+PAT-2120,52,Male,General Ward,2,1,2,8,0,0,0,0,0,Home,0.145,0
+PAT-2121,20,Male,General Ward,2,0,1,16,1,0,0,0,1,Home,0.146,0
+PAT-2122,61,Female,ICU,9,4,3,18,0,0,0,1,0,Home,0.767,1
+PAT-2123,68,Male,General Ward,4,1,0,9,0,0,0,0,0,Home Health Care,0.164,0
+PAT-2124,29,Female,ICU,11,5,1,12,0,0,0,0,0,Home,0.395,0
+PAT-2125,36,Female,Surgery,1,0,1,19,1,0,0,1,0,Home,0.09,0
+PAT-2126,61,Male,Surgery,5,1,0,18,1,0,0,0,0,Home,0.124,0
+PAT-2127,76,Female,Emergency,1,0,0,5,1,0,1,0,0,Home,0.192,0
+PAT-2128,66,Male,Surgery,13,3,1,2,0,0,1,0,0,Home,0.485,1
+PAT-2129,78,Female,Surgery,5,1,1,7,0,1,1,0,0,Home,0.442,1
+PAT-2130,34,Female,ICU,5,0,1,10,0,0,1,0,1,Home,0.184,0
+PAT-2131,74,Female,General Ward,3,0,0,15,1,0,0,0,0,Home,0.04,0
+PAT-2132,72,Male,Emergency,1,1,0,7,0,1,0,0,0,Home Health Care,0.078,0
+PAT-2133,64,Male,Emergency,1,1,0,5,0,1,0,0,1,Home Health Care,0.074,0
+PAT-2134,29,Male,ICU,9,7,1,15,0,0,1,1,0,Skilled Nursing Facility,0.817,1
+PAT-2135,79,Male,Emergency,1,0,1,20,0,1,1,0,0,Home,0.263,0
+PAT-2136,25,Male,General Ward,2,0,1,20,1,1,1,0,1,Skilled Nursing Facility,0.267,0
+PAT-2137,38,Male,Emergency,1,2,1,15,0,1,0,0,0,Home,0.081,0
+PAT-2138,87,Male,Surgery,1,2,1,10,1,0,0,0,0,Skilled Nursing Facility,0.486,1
+PAT-2139,89,Male,Emergency,1,1,0,14,0,1,0,0,1,Home,0.323,0
+PAT-2140,42,Female,Cardiology,9,1,0,10,1,0,0,0,1,Home,0.104,0
+PAT-2141,29,Male,Surgery,6,1,0,17,1,1,0,0,0,Home,0.052,0
+PAT-2142,32,Male,Cardiology,1,2,0,21,0,1,0,0,0,Home,0.069,0
+PAT-2143,76,Male,Cardiology,7,0,0,14,1,0,1,0,0,Home Health Care,0.393,0
+PAT-2144,43,Male,Surgery,1,3,1,2,0,1,0,0,0,Home Health Care,0.29,0
+PAT-2145,43,Female,Emergency,1,1,1,16,1,0,1,0,0,Skilled Nursing Facility,0.279,0
+PAT-2146,64,Male,General Ward,4,2,2,13,1,1,0,1,0,Home Health Care,0.502,1
+PAT-2147,49,Female,ICU,10,5,0,9,1,1,1,0,1,Home,0.807,1
+PAT-2148,27,Female,Emergency,1,0,0,7,0,0,1,0,1,Home,0.057,0
+PAT-2149,33,Female,General Ward,5,2,0,16,0,1,1,0,0,Skilled Nursing Facility,0.15,0
+PAT-2150,88,Female,General Ward,4,2,1,10,0,0,0,1,0,Home,0.248,0
+PAT-2151,34,Female,Cardiology,1,1,2,9,0,0,1,0,0,Home Health Care,0.147,0
+PAT-2152,40,Female,Surgery,3,0,2,7,1,1,0,0,0,Home,0.119,0
+PAT-2153,43,Female,Surgery,4,0,0,16,1,0,0,0,0,Home,0.064,0
+PAT-2154,24,Female,ICU,7,2,0,9,1,1,0,0,1,Skilled Nursing Facility,0.128,0
+PAT-2155,31,Female,General Ward,1,2,1,17,0,0,1,0,0,Home,0.135,0
+PAT-2156,24,Female,General Ward,1,3,0,20,1,0,0,0,1,Home,0.059,0
+PAT-2157,26,Female,General Ward,7,2,1,7,1,1,1,0,0,Home,0.362,0
+PAT-2158,65,Male,General Ward,2,1,1,11,1,0,0,0,0,Home Health Care,0.211,0
+PAT-2159,89,Male,General Ward,7,2,2,8,0,1,0,0,0,Home,0.454,1
+PAT-2160,76,Male,Cardiology,2,2,1,7,0,1,1,1,0,Home,0.617,1
+PAT-2161,56,Male,Emergency,1,2,0,19,0,1,0,0,1,Home,0.131,0
+PAT-2162,35,Male,General Ward,3,1,0,20,0,1,1,0,1,Home,0.162,0
+PAT-2163,76,Male,General Ward,1,0,0,12,0,1,0,0,0,Home,0.132,0
+PAT-2164,34,Female,Emergency,1,1,1,7,1,0,0,0,0,Home,0.027,0
+PAT-2165,31,Male,General Ward,2,1,0,8,0,1,0,0,0,Skilled Nursing Facility,0.06,0
+PAT-2166,48,Female,Cardiology,3,1,1,7,0,0,0,0,1,Skilled Nursing Facility,0.181,0
+PAT-2167,41,Male,ICU,6,3,1,6,0,0,0,0,1,Home,0.259,0
+PAT-2168,77,Male,ICU,1,1,1,9,1,1,0,0,0,Home Health Care,0.452,1
+PAT-2169,62,Female,ICU,10,2,1,13,1,1,0,0,0,Home,0.31,0
+PAT-2170,20,Female,General Ward,5,1,1,7,1,1,0,0,0,Home,0.08,0
+PAT-2171,54,Male,Emergency,1,3,1,8,0,1,0,0,0,Home,0.112,0
+PAT-2172,60,Female,Emergency,3,1,1,17,0,1,1,1,0,Home,0.538,1
+PAT-2173,57,Female,Emergency,1,2,2,17,1,1,0,0,0,Home,0.305,0
+PAT-2174,72,Male,General Ward,5,1,1,16,0,0,1,0,1,Home,0.326,0
+PAT-2175,56,Male,Emergency,2,4,3,2,0,0,0,0,0,Home Health Care,0.408,0
+PAT-2176,32,Female,Emergency,1,0,1,8,0,0,0,0,0,Home,0.05,0
+PAT-2177,21,Female,Surgery,6,1,1,17,0,1,0,0,1,Home Health Care,0.126,0
+PAT-2178,42,Female,ICU,2,0,0,13,0,0,0,0,0,Home,0.115,0
+PAT-2179,30,Female,ICU,3,1,0,18,0,0,0,0,0,Home,0.056,0
+PAT-2180,50,Male,Emergency,1,6,2,10,0,0,0,1,0,Home,0.566,1
+PAT-2181,33,Male,Emergency,1,0,2,2,0,1,1,0,0,Home,0.109,0
+PAT-2182,59,Male,ICU,10,3,0,2,0,1,0,0,0,Home Health Care,0.253,0
+PAT-2183,83,Female,ICU,9,1,1,14,0,0,0,0,0,Home Health Care,0.171,0
+PAT-2184,72,Female,ICU,7,2,1,16,0,0,0,0,1,Home,0.381,0
+PAT-2185,59,Female,Surgery,7,1,1,7,0,0,0,0,0,Home Health Care,0.173,0
+PAT-2186,51,Male,ICU,11,1,0,21,0,0,0,0,1,Skilled Nursing Facility,0.187,0
+PAT-2187,47,Male,Cardiology,7,1,0,21,0,0,0,0,0,Home Health Care,0.052,0
+PAT-2188,30,Female,Emergency,1,0,1,12,0,1,1,0,1,Home,0.224,0
+PAT-2189,30,Female,Cardiology,3,1,1,14,0,1,0,0,0,Home Health Care,0.044,0
+PAT-2190,35,Female,Surgery,5,1,0,4,0,0,1,0,1,Home,0.063,0
+PAT-2191,49,Male,ICU,10,5,0,4,1,0,0,0,0,Skilled Nursing Facility,0.393,0
+PAT-2192,56,Female,Surgery,1,0,0,18,0,0,0,0,0,Home,0.026,0
+PAT-2193,63,Male,General Ward,2,3,1,3,0,0,0,1,0,Home,0.384,0
+PAT-2194,46,Female,Cardiology,1,1,0,1,0,0,0,1,1,Home,0.137,0
+PAT-2195,79,Male,Emergency,2,2,0,17,1,0,0,0,0,Home,0.212,0
+PAT-2196,79,Female,General Ward,3,2,0,7,0,0,0,0,0,Skilled Nursing Facility,0.307,0
+PAT-2197,74,Male,Emergency,1,0,1,16,0,1,0,1,0,Home,0.194,0
+PAT-2198,33,Female,Cardiology,1,4,0,5,0,1,0,0,1,Home,0.256,0
+PAT-2199,73,Male,General Ward,3,0,0,19,1,1,0,0,0,Skilled Nursing Facility,0.316,0
